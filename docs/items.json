@@ -1,6 +1,6 @@
 {
 "title": "Cyber",
-"updated": "2026-10-27T23:08:31+00:00",
+"updated": "2026-10-27T23:13:09+00:00",
 "items": [
 {
 "id": "7eaa9e9fb7239b59",
@@ -1880,6 +1880,22 @@
 ]
 },
 {
+"id": "1392bee7153d6a9b",
+"title": "Horizon3 Announces NodeZero® Integration With Palo Alto Networks Cortex XSOAR",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0dXYTIxZFBsVjhGdDg1cm5FeVQzdmhaY21LQnFrNzZGQ0dlLXhTRzZ4YkRHaGZMVFBydWJvT0hQWGF0RVQ0QnVKcTFGR2loajhuTFJHLXZrdTJmTkM0dmhhdlpuYWhDWXItSmlCTl91eE1CN2g2c1F1Tzg4VjRJcnA2bWRCM19lX0U3XzczSVozeVpKdmdUVUF5d1hoa1hncmk3bEJlRW95T19DaGpmWFdCdnJIRVZCTzREX3hVN09oZDRLN3NtdXlwa2VjQQ?oc=5",
+"published": "2026-10-27T12:55:00+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "Business Wire",
+"domain": "businesswire.com",
+"sources": [
+"Palo Alto Networks news"
+],
+"tags": [
+"PANW"
+]
+},
+{
 "id": "d3d757d17a620d64",
 "title": "Fortinet expands AI security capabilities with new firewall service",
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ1VVQnR6bXFaV2xVTk1uSWwtbGdoTGNrc1dORGRTbmliMFg0dWVNakg0YXVKYjZkcnB2b3F3RjRSalJJTUx4eGNpanpZbkJRRU1rd294VGl0VjFGcFE1YkhIQkMtTGdobXhrdWF0YTJEUEl2SU80c2V3dnQ5X3VJTDFYbDMyOWNpOUhpUkFaRXIxb3pBVTRZTURaSmduRUdT?oc=5",
@@ -2088,6 +2104,22 @@
 ]
 },
 {
+"id": "23e508eef9d99105",
+"title": "Ten Eleven Ventures Named to Inc.’s 2026 Founder-Friendly Investors List",
+"link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbTdpM19IaDJLM2lERlJPSHh0R1ZZa1NrX3pONTZqOXJTenJ2TmpzU2ZydHY1WUtQVVlfUHM1a3dWR3NOSnRWc2UzLWR2Q3hzRnVYMnM4RTdicXNFNHJLVElMRGtkdThITG5hNjE1enQzMy1HWUNDMUk3d0V3bTc1Sndib05nYm1YQU85NFR3Vy0zSElTRy1wQkp4dGVDMy1pZm9EN0puYkNOTnRuNVJFd0pNbS1SY21BN200eml5eXc1QXYyb0pj?oc=5",
+"published": "2026-10-27T12:00:00+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "Business Wire",
+"domain": "businesswire.com",
+"sources": [
+"Ping Identity news"
+],
+"tags": [
+"Other cos"
+]
+},
+{
 "id": "249d7a44ea79e3c9",
 "title": "8-K  - Current report",
 "link": "https://www.sec.gov/Archives/edgar/data/1169561/000116956126000032/0001169561-26-000032-index.htm",
@@ -2241,6 +2273,22 @@
 "summary": "",
 "publisher": "SiliconANGLE",
 "domain": "siliconangle.com",
+"sources": [
+"Akamai news"
+],
+"tags": [
+"AKAM"
+]
+},
+{
+"id": "5bfeedc52c97e5c5",
+"title": "Akamai Launches AI Inference Service and Agent Execution Environment",
+"link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVWJNa1lFNTlzeC1XN2dkclVFQzA2ZmkwYm5oTXNSd1ZuWi02OHJ6VzFWUGlHekRuTkZvVGJURU1FMWQxdW95aHZQWUwwWEpLbTlDZF9venVXU3ZHS2MtMWhoTkxNWFNVVU1vcDdyUEtVOGd0WXZKZkVHeUpBRE1OZ1pmQWtMazRhNy16T2pYMS11b3p0WUhwU3dHWXM5THdMWm1aNlpITUNzekFFMTJZM0Y4RV9KR3doUkxNSXpSb0gxUzFTVFNHeDdwNVUxYkU5dVN5dmxqNjVSOUU?oc=5",
+"published": "2026-10-27T10:30:00+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "GlobeNewswire",
+"domain": "globenewswire.com",
 "sources": [
 "Akamai news"
 ],
@@ -3273,6 +3321,22 @@
 ]
 },
 {
+"id": "0a6d438f03860d82",
+"title": "Presidio Wins Global Innovation Partner of the Year at Cisco Partner Summit 2026",
+"link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSVRRLUhnVHJuQlk5c3JyRFRXRFQwWmtvSl82NFViRzctWjNPNUg1cjdRRkFnaWhKOWNjb2w1MVdCV3RoZ29zVjdkYUgxamZGU19fLU5pd2VhVHZ5cVFpYm1xcEdwX3B4R2RTYnAxWXJHaUZTM2pkVG1kWWt5RWYyVC1SblpreVNZWEw3aV9yZUlycU9odEZJZGpkMUNXSWJTaUJZaUFtaXd5T0lfVGEyYTVLZlc0c1ptbm9KczBrcUhpZjZYZ0FEUXA3UU5PN1AtMEh0akxn?oc=5",
+"published": "2026-10-26T23:52:03+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "markets.businessinsider.com",
+"domain": "markets.businessinsider.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
+]
+},
+{
 "id": "a2186c522ef5d968",
 "title": "Cloudflare's Agentic AI Strategy: Beyond Cybersecurity",
 "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYVMyM01IN25JR0dKalczNVl5V0p3SUxwYVJOeTYzeEdvZVZ3X3NVUkdjYkJvVUFjcUw1YmdjOXN1UG8wZnhpU3pMNVBac1BIMU5IMjBSci05Y3pneTFXbUFld1hPTzFaRFNhbTQtZS0wcWY5WjZadUpPMUhOZm5MSS1Fb2ZRZWdXenc?oc=5",
@@ -3968,6 +4032,22 @@
 ]
 },
 {
+"id": "947c2b0a11e9ed87",
+"title": "Palo Alto Networks Unveils Cortex XDR One to Reinvent Endpoint Security for the Agentic AI Era",
+"link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWVA4RkNRZGpDUkJWZWxLdlZwXzhvU0paejJhdHRXaVUwSW1MVFRrd242bjd2bFNjc2dNVmR2bHRCMGJjY2d6aWdLdmplVjNPQXRVazdaelJvQzJrU1F0Z2NBbkxLbXo1bWtWNHotSzZHYTN1VlkwdGVpWjZHYmNTNW5sVV84QmhSZzJueUxsUHhPQTBmVmM2bUoybTNXM2JocVZteU5sOElwYWhmV1hHVVNPTEpUbGxWaE9HbVltZ3hVOW4wdHpSQzhIb21yYm1N?oc=5",
+"published": "2026-10-26T16:56:44+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "Technuter",
+"domain": "technuter.com",
+"sources": [
+"Palo Alto Networks news"
+],
+"tags": [
+"PANW"
+]
+},
+{
 "id": "025c828b8f607690",
 "title": "Okta System Logs: How to Export and Analyze",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wTzVfU25sRmEtWlVBNVFnQnlMWUd0QnhDY1dHQ3lhNGYzVjhOZGFPQ1lIVEJ0dzRpUC1VOHpzOWVJbHljc2I3Yl9meU5zSXpRTUVhdS16SUI5aDZLMGZuMXhwVElJRnJK?oc=5",
@@ -4191,6 +4271,22 @@
 ],
 "tags": [
 "OKTA"
+]
+},
+{
+"id": "9fef5ef2c59d4580",
+"title": "The Secure Enterprise Domain Name System (DNS) Market Is Projecte",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFpBdGVlMmtteGRfQ3VyM3QwM090Nm4wM3ZOSkxPRjVWTVpwLXJjSi1WR2dYMEtZQmtuU2ZPVUZHTFlsS2xBdmQ4Q1o5UW5xb3p4Z0lFNVFJajFJZzlKbE8zbzFaZHZiay00VEExY1JvQjg2c2NlNV9DbjNNcE04VWZ6V3JSZTBOYnFfWFZYeDVJd0M0R1BwN0lkMERNNktGMWY0aEZRQlM5TE9EdjVMMUlwcXE?oc=5",
+"published": "2026-10-26T15:06:36+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "The National Law Review",
+"domain": "natlawreview.com",
+"sources": [
+"Akamai news"
+],
+"tags": [
+"AKAM"
 ]
 },
 {
@@ -4757,6 +4853,22 @@
 ]
 },
 {
+"id": "de08d45b77bc6177",
+"title": "StealC Malware Returns as Stadia RAT After Operation Endgame Takedown",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wYkwtZWJlRUUwYUFMaEdFc0MyT0N3bWwzZ2E1a0VGMEsyTmUzZXg3Vk8taF9fVVBKLXBFV1ZPV092cjFVT1VBS3dOdHRRVWFBUnVKOW0wT2ZiYVJmUlFYUV9DUVVYTmJydG1OakxKcmhwVklTM1NqMm9QaFBrSWM?oc=5",
+"published": "2026-10-26T11:21:24+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "Hackread",
+"domain": "hackread.com",
+"sources": [
+"Varonis news"
+],
+"tags": [
+"VRNS"
+]
+},
+{
 "id": "1f5f8f1eccb914c1",
 "title": "The developer created the Overgrown extension for Chrome, which transforms abandoned browser tabs into a \"green post-apocalypse\" in the spirit of TLoU",
 "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ORjMxd095akRTbkVQU2pDLW5kUDNLQmkyVFpaZDN3dl9MS0Y1ejB5N2NqalpHZ2J1dG9QNHpKaHZROHVleEFSeGhuMDhFVU80NDlTbFdQM2xGMk9XZ2pMM01jbl9uQQ?oc=5",
@@ -5210,6 +5322,22 @@
 ],
 "tags": [
 "NET"
+]
+},
+{
+"id": "8c2f9221763a62e1",
+"title": "India's cybersecurity talent challenge: Why more automation must be matched by better skills",
+"link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcnVSdEd0NDAwZC1zeEpNQmMtVlIxakpkczFzTkhyWHBBSkVkbGhRbWVBc3NrTTZrZWRhZVluT1M4RWhmcW9iYnRyZFIwZXlNVlJPWlFvX21xYk1fSVoyVDd0bDhxNFVCeHkwVFJocFpEZjBRejdYNWdPRm1OOXpOR200V0ExNERyaG0tVmpuYnVpXzU1dTBxNDNzdnBVV3lyMmRTZ1RMbWFPNm5hZDVWZW1FRHQwcC1hTU9tVDNVd09ORGdURTZmV3RyTlBlMlJLSWFtdGJsMnc4MGJ5R2c?oc=5",
+"published": "2026-10-26T06:33:57+00:00",
+"first_seen": "2026-10-27T23:13:09+00:00",
+"summary": "",
+"publisher": "Express Computer",
+"domain": "expresscomputer.in",
+"sources": [
+"SentinelOne news"
+],
+"tags": [
+"S"
 ]
 },
 {

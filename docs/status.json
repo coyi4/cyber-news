@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T23:08:31+00:00",
+ "updated": "2026-10-27T23:13:09+00:00",
  "sources": [
   {
    "source": "The Hacker News",
@@ -36,17 +36,17 @@
   {
    "source": "Varonis news",
    "type": "google_news",
-   "fetched": 9,
-   "new": 0,
+   "fetched": 10,
+   "new": 1,
    "blocked": 6,
    "error": null
   },
   {
    "source": "SentinelOne news",
    "type": "google_news",
-   "fetched": 13,
+   "fetched": 17,
    "new": 1,
-   "blocked": 10,
+   "blocked": 13,
    "error": null
   },
   {
@@ -69,32 +69,32 @@
    "source": "Arctic Wolf news",
    "type": "google_news",
    "fetched": 12,
-   "new": 1,
+   "new": 0,
    "blocked": 4,
    "error": null
   },
   {
    "source": "Fortinet news",
    "type": "google_news",
-   "fetched": 62,
-   "new": 7,
-   "blocked": 39,
+   "fetched": 52,
+   "new": 0,
+   "blocked": 34,
    "error": null
   },
   {
    "source": "Akamai news",
    "type": "google_news",
-   "fetched": 30,
-   "new": 0,
-   "blocked": 22,
+   "fetched": 39,
+   "new": 2,
+   "blocked": 30,
    "error": null
   },
   {
    "source": "Wiz news",
    "type": "google_news",
-   "fetched": 22,
+   "fetched": 37,
    "new": 0,
-   "blocked": 4,
+   "blocked": 6,
    "error": null
   },
   {
@@ -117,7 +117,7 @@
    "source": "Cisco news",
    "type": "google_news",
    "fetched": 54,
-   "new": 0,
+   "new": 1,
    "blocked": 25,
    "error": null
   },
@@ -125,24 +125,24 @@
    "source": "Zscaler news",
    "type": "google_news",
    "fetched": 48,
-   "new": 2,
+   "new": 0,
    "blocked": 40,
    "error": null
   },
   {
    "source": "Palo Alto Networks news",
    "type": "google_news",
-   "fetched": 62,
-   "new": 1,
-   "blocked": 39,
+   "fetched": 57,
+   "new": 2,
+   "blocked": 37,
    "error": null
   },
   {
    "source": "Rapid7 news",
    "type": "google_news",
-   "fetched": 10,
+   "fetched": 9,
    "new": 0,
-   "blocked": 7,
+   "blocked": 6,
    "error": null
   },
   {
@@ -196,9 +196,9 @@
   {
    "source": "Fastly news",
    "type": "google_news",
-   "fetched": 11,
+   "fetched": 10,
    "new": 0,
-   "blocked": 9,
+   "blocked": 8,
    "error": null
   },
   {
@@ -212,17 +212,17 @@
   {
    "source": "Cellebrite news",
    "type": "google_news",
-   "fetched": 8,
+   "fetched": 9,
    "new": 0,
-   "blocked": 5,
+   "blocked": 6,
    "error": null
   },
   {
    "source": "OneSpan news",
    "type": "google_news",
-   "fetched": 6,
+   "fetched": 7,
    "new": 0,
-   "blocked": 6,
+   "blocked": 7,
    "error": null
   },
   {
@@ -268,9 +268,9 @@
   {
    "source": "Tenable news",
    "type": "google_news",
-   "fetched": 23,
-   "new": 2,
-   "blocked": 18,
+   "fetched": 15,
+   "new": 0,
+   "blocked": 14,
    "error": null
   },
   {
@@ -332,9 +332,9 @@
   {
    "source": "Okta news",
    "type": "google_news",
-   "fetched": 22,
+   "fetched": 37,
    "new": 0,
-   "blocked": 16,
+   "blocked": 29,
    "error": null
   },
   {
@@ -349,7 +349,7 @@
    "source": "Ping Identity news",
    "type": "google_news",
    "fetched": 8,
-   "new": 0,
+   "new": 1,
    "blocked": 3,
    "error": null
   },
@@ -388,9 +388,9 @@
   {
    "source": "MongoDB news",
    "type": "google_news",
-   "fetched": 20,
+   "fetched": 24,
    "new": 0,
-   "blocked": 9,
+   "blocked": 10,
    "error": null
   },
   {
@@ -405,30 +405,30 @@
    "source": "AvePoint news",
    "type": "google_news",
    "fetched": 16,
-   "new": 1,
+   "new": 0,
    "blocked": 15,
    "error": null
   },
   {
    "source": "ReliaQuest news",
    "type": "google_news",
-   "fetched": 35,
-   "new": 5,
-   "blocked": 25,
+   "fetched": 14,
+   "new": 0,
+   "blocked": 8,
    "error": null
   },
   {
    "source": "CrowdStrike news",
    "type": "google_news",
-   "fetched": 55,
-   "new": 2,
-   "blocked": 44,
+   "fetched": 46,
+   "new": 0,
+   "blocked": 39,
    "error": null
   },
   {
    "source": "1Password news",
    "type": "google_news",
-   "fetched": 16,
+   "fetched": 15,
    "new": 0,
    "blocked": 4,
    "error": null
@@ -436,17 +436,17 @@
   {
    "source": "Check Point news",
    "type": "google_news",
-   "fetched": 30,
-   "new": 2,
+   "fetched": 29,
+   "new": 0,
    "blocked": 18,
    "error": null
   },
   {
    "source": "Telos news",
    "type": "google_news",
-   "fetched": 6,
+   "fetched": 5,
    "new": 0,
-   "blocked": 5,
+   "blocked": 4,
    "error": null
   },
   {
@@ -763,8 +763,18 @@
    "items": 3
   },
   {
+   "domain": "expresscomputer.in",
+   "publisher": "Express Computer",
+   "items": 3
+  },
+  {
    "domain": "blog.cloudflare.com",
    "publisher": "Cloudflare Blog",
+   "items": 3
+  },
+  {
+   "domain": "businesswire.com",
+   "publisher": "Business Wire",
    "items": 3
   },
   {
@@ -818,6 +828,11 @@
    "items": 2
   },
   {
+   "domain": "technuter.com",
+   "publisher": "Technuter",
+   "items": 2
+  },
+  {
    "domain": "tribune.net.ph",
    "publisher": "Daily Tribune",
    "items": 2
@@ -830,11 +845,6 @@
   {
    "domain": "sdxcentral.com",
    "publisher": "SDxCentral",
-   "items": 2
-  },
-  {
-   "domain": "expresscomputer.in",
-   "publisher": "Express Computer",
    "items": 2
   },
   {
@@ -865,6 +875,11 @@
   {
    "domain": "quantumzeitgeist.com",
    "publisher": "Quantum Zeitgeist",
+   "items": 2
+  },
+  {
+   "domain": "globenewswire.com",
+   "publisher": "GlobeNewswire",
    "items": 2
   },
   {
@@ -968,11 +983,6 @@
    "items": 1
   },
   {
-   "domain": "technuter.com",
-   "publisher": "Technuter",
-   "items": 1
-  },
-  {
    "domain": "usatoday.com",
    "publisher": "USA Today",
    "items": 1
@@ -1030,16 +1040,6 @@
   {
    "domain": "teslanorth.com",
    "publisher": "TeslaNorth.com",
-   "items": 1
-  },
-  {
-   "domain": "borkena.com",
-   "publisher": "Borkena",
-   "items": 1
-  },
-  {
-   "domain": "uniladtech.com",
-   "publisher": "UNILAD Tech",
    "items": 1
   }
  ]
