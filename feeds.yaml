@@ -24,7 +24,7 @@ settings:
   global_exclude:
     - class action
 
-  # From the RSS.app bundle blacklist (sites). A domain also blocks its subdomains,
+  # Sites to block: the RSS.app bundle blacklist, plus sites added in later reviews. A domain also blocks its subdomains,
   # so investing.com covers uk.investing.com, and yahoo.com covers finance.yahoo.com.
   # Adding a site here also removes its already-saved items on the next run.
   # docs/status.json lists the sites filling your feed, most first.
@@ -57,6 +57,100 @@ settings:
     - marketbeat.com
     - trefis.com
     - en.globes.co.il
+
+    # Added from the October 2026 review
+    # Stock-move recaps, price forecasts and promo
+    - tradingkey.com
+    - moomoo.com
+    - ad-hoc-news.de
+    - quiverquant.com
+    - pluang.com
+    - timothysykes.com
+    - kalkinemedia.com
+    - kalkine.co.in
+    - kalkine.com.au
+    - kalkine.ca
+    - fxempire.com
+    - tradersunion.com
+    - stocksdownunder.com
+    - news.stocktradersdaily.com
+    - invezz.com
+    - kavout.com
+    - financialcontent.com
+    - markets.financialcontent.com
+    - news.futunn.com
+    - marketwatch.com
+    - investors.com
+    - zacks.com
+    - tipranks.com
+    # Spam and unrelated sites
+    - dars.gov.et
+    - siam.in
+    - lentedesportiva.com
+    - nychealthandhospitals.org
+    - ciscofuneralhome.com
+    - obits.cleveland.com
+    - lpga.com
+    - ticketnews.com
+    # AI rewrites, SEO listicles and profile pages
+    - tech-insider.org
+    - tracxn.com
+    - clay.com
+    - finance.biggo.com
+    - remio.ai
+    - opentools.ai
+    - startupfortune.com
+    - shattered.io
+    - technology.org
+    - aimultiple.com
+    - unite.ai
+    - theaiinsider.tech
+    - hackernoon.com
+    - ox.security
+    - app.dealroom.co
+    - qz.com
+    # Press release reposts
+    - einpresswire.com
+    - securitybrief.com.au
+    - securitybrief.co.nz
+    - securitybrief.asia
+    - securitybrief.co.uk
+    - itbrief.com.au
+    - itbrief.asia
+    - itbrief.co.uk
+    - channellife.com.au
+    - channellife.co.uk
+    - citybiz.co
+    - manilatimes.net
+    - aithority.com
+    - vmblog.com
+    - mykxlg.com
+    - lincolnjournal.com
+    - joplinglobe.com
+    - eagletribune.com
+    - newspressnow.com
+    - 12news.com
+    - cybermagazine.com
+    - technologymagazine.com
+    - aimagazine.com
+    - solutionsreview.com
+    # Security and crypto rewrite blogs
+    - cyberpress.org
+    - cybersecurity-insiders.com
+    - technadu.com
+    - cyberkendra.com
+    - gbhackers.com
+    - tokenpost.com
+    - cryptopolitan.com
+    - crypto.news
+    - ambcrypto.com
+    - thedefiant.io
+    - en.cryptonomist.ch
+    - cryptobriefing.com
+    # Found after the review
+    - iheart.com            # local radio news matching ReliaQuest
+    - openpr.com            # market-research press spam
+    - cryptorank.io         # crypto price-converter pages
   exclude_publishers: []
 
 sources:
