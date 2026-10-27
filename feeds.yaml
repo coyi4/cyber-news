@@ -1,0 +1,489 @@
+# Cyber bundle, migrated from RSS.app (83 feeds).
+#
+# Each source takes optional:
+#   tags                - labels for filtering in the reader (tickers here, so news and filings group together)
+#   include             - keep only items whose headline/summary mentions one of these
+#   exclude             - drop items mentioning any of these
+#   exclude_domains     - drop items from these sites
+#   exclude_publishers  - drop items from these outlet names
+#   strip_title         - regex patterns to remove from headlines
+#   disabled: true      - pause a source without deleting it
+
+settings:
+  title: Cyber
+  site_url: https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO/
+  max_age_days: 5           # RSS.app bundle showed the last 5 days
+  max_items: 2500
+  # Each Google News search only looks back this far (the feed keeps older items from
+  # earlier runs). Set `when` on a single search to override, e.g. 1d for very busy names.
+  google_news_when: 2d
+  # SEC EDGAR blocks requests without a contact in the user agent, so put your email here.
+  user_agent: "Personal news aggregator bmsacct4@gmail.com"
+
+  # From the RSS.app bundle blacklist (title/description keywords)
+  global_exclude:
+    - class action
+
+  # From the RSS.app bundle blacklist (sites). A domain also blocks its subdomains,
+  # so investing.com covers uk.investing.com, and yahoo.com covers finance.yahoo.com.
+  # Adding a site here also removes its already-saved items on the next run.
+  # docs/status.json lists the sites filling your feed, most first.
+  exclude_domains:
+    - tikr.com
+    - jerseydigs.com
+    - msn.com
+    - finance.yahoo.com
+    - stockstory.org
+    - stocktitan.net
+    - tradingview.com
+    - barchart.com
+    - letsdatascience.com
+    - simplywall.st
+    - investing.com
+    - chartmill.com
+    - theglobeandmail.com
+    - fool.com
+    - coincentral.com
+    - aol.com
+    - marketscreener.com
+    - 247wallst.com
+    - morningstar.com
+    - yahoo.com
+    - gurufocus.com
+    - reviewjournal.com
+    - benzinga.com
+    - forbes.com
+    - macombdaily.com
+    - marketbeat.com
+    - trefis.com
+    - en.globes.co.il
+  exclude_publishers: []
+
+sources:
+  # ---- Industry news and IR pages ------------------------------------------
+  - name: The Hacker News
+    type: rss
+    url: https://feeds.feedburner.com/TheHackersNews
+    tags: [Industry]
+
+  - name: CTech
+    type: scrape                    # no feed; reads headline links off the page
+    url: https://www.calcalistech.com/ctechnews
+    item: 'a[href*="/ctechnews/article/"]'
+    strip_title: ['^\d{1,2}:\d{2}\s+']    # drop the "10:45" timestamps CTech puts before headlines
+    tags: [Industry]
+
+  - name: Sun Corp IR
+    type: rss                       # the IR page loads from this disclosure feed
+    url: https://www.xj-storage.jp/public-list/GetList2.aspx?company=AS02371&len=40&doctype=15,20001,15013,20000,20091,20096,20098,20109,20200,34100&output=rss
+    tags: [Sun Corp]
+
+  # ---- Google News searches ------------------------------------------------
+  # Multi-word names are in quotes so all the words appear together, and names that
+  # are also everyday words get context or exclusions. Single distinctive names stay
+  # unquoted: quoting those made Google return fewer real results in testing.
+  # Search operators: "exact phrase", OR, -word, site:, when:2d
+
+  - name: BeyondTrust news
+    type: google_news
+    query: "BeyondTrust"
+    tags: [Other cos]
+
+  - name: Varonis news
+    type: google_news
+    query: "Varonis"
+    tags: [VRNS]
+
+  - name: SentinelOne news
+    type: google_news
+    query: 'SentinelOne -Showdown'
+    tags: [S]
+
+  - name: Contrast Security news
+    type: google_news
+    query: '"Contrast Security"'
+    tags: [Other cos]
+
+  - name: Keyfactor news
+    type: google_news
+    query: "KeyFactor security"
+    tags: [Other cos]
+
+  - name: Arctic Wolf news
+    type: google_news
+    query: '"Arctic Wolf"'
+    tags: [Other cos]
+
+  - name: Fortinet news
+    type: google_news
+    query: 'Fortinet -"Founders Cup"'
+    tags: [FTNT]
+
+  - name: Akamai news
+    type: google_news
+    query: "Akamai Technologies"
+    tags: [AKAM]
+
+  - name: Wiz news
+    type: google_news
+    query: "Wiz security"
+    tags: [Other cos]
+
+  - name: BigID news
+    type: google_news
+    query: "BigID"
+    tags: [Other cos]
+
+  - name: Sonatype news
+    type: google_news
+    query: "Sonatype"
+    tags: [Other cos]
+
+  - name: Cisco news
+    type: google_news
+    query: 'Cisco -obituary -obituaries -funeral -football'
+    when: 1d                        # busy enough to hit Google's 100-result cap in 2 days
+    tags: [CSCO]
+
+  - name: Zscaler news
+    type: google_news
+    query: "Zscaler"
+    tags: [ZS]
+
+  - name: Palo Alto Networks news
+    type: google_news
+    query: "Palo Alto Networks"
+    tags: [PANW]
+
+  - name: Rapid7 news
+    type: google_news
+    query: "Rapid7"
+    tags: [RPD]
+
+  - name: HackerOne news
+    type: google_news
+    query: "HackerOne"
+    tags: [Other cos]
+
+  - name: Axonius news
+    type: google_news
+    query: "Axonius"
+    tags: [Other cos]
+
+  - name: Commvault news
+    type: google_news
+    query: "Commvault"
+    tags: [CVLT]
+
+  - name: Rubrik news
+    type: google_news
+    query: "Rubrik"
+    tags: [RBRK]
+
+  - name: One Identity news
+    type: google_news
+    query: '"One Identity"'
+    tags: [Other cos]
+
+  - name: Tanium news
+    type: google_news
+    query: "Tanium"
+    tags: [Other cos]
+
+  - name: Fastly news
+    type: google_news
+    query: "Fastly"
+    tags: [FSLY]
+
+  - name: BitSight news
+    type: google_news
+    query: "BitSight"
+    tags: [Other cos]
+
+  - name: Cellebrite news
+    type: google_news
+    query: "Cellebrite"
+    tags: [CLBT]
+
+  - name: OneSpan news
+    type: google_news
+    query: "OneSpan"
+    tags: [OSPN]
+
+  - name: Vectra AI news
+    type: google_news
+    query: '"Vectra AI"'
+    tags: [Other cos]
+
+  - name: Netskope news
+    type: google_news
+    query: "Netskope"
+    tags: [NTSK]
+
+  - name: Intellicheck news
+    type: google_news
+    query: "Intellicheck"
+    tags: [IDN]
+
+  - name: Claroty news
+    type: google_news
+    query: "Claroty"
+    tags: [Other cos]
+
+  - name: Cockroach Labs news
+    type: google_news
+    query: '"Cockroach Labs" OR CockroachDB'
+    tags: [Other cos]
+
+  - name: Tenable news
+    type: google_news
+    query: 'Tenable (TENB OR security OR cyber OR exposure OR vulnerability)'
+    tags: [TENB]
+
+  - name: eSentire news
+    type: google_news
+    query: "eSentire"
+    tags: [Other cos]
+
+  - name: Snyk news
+    type: google_news
+    query: "Snyk security"
+    tags: [Other cos]
+
+  - name: Delinea news
+    type: google_news
+    query: "Delinea Security"
+    tags: [Other cos]
+
+  - name: Cloudflare news
+    type: google_news
+    query: "Cloudflare"
+    tags: [NET]
+
+  - name: Jumio news
+    type: google_news
+    query: "Jumio"
+    tags: [Other cos]
+
+  - name: Sysdig news
+    type: google_news
+    query: "Sysdig"
+    tags: [Other cos]
+
+  - name: Saviynt news
+    type: google_news
+    query: "Saviynt"
+    tags: [Other cos]
+
+  - name: Okta news
+    type: google_news
+    query: 'Okta -restaurant -chef'
+    tags: [OKTA]
+
+  - name: Armis news
+    type: google_news
+    query: "Armis security"
+    tags: [Other cos]
+
+  - name: Ping Identity news
+    type: google_news
+    query: '"Ping Identity"'
+    tags: [Other cos]
+
+  - name: Qualys news
+    type: google_news
+    query: "Qualys"
+    tags: [QLYS]
+
+  - name: SailPoint news
+    type: google_news
+    query: "SailPoint"
+    tags: [SAIL]
+
+  - name: Socure news
+    type: google_news
+    query: "Socure"
+    tags: [Other cos]
+
+  - name: Illumio news
+    type: google_news
+    query: "Illumio"
+    tags: [Other cos]
+
+  - name: MongoDB news
+    type: google_news
+    query: "MongoDB"
+    tags: [MDB]
+
+  - name: LivePerson news
+    type: google_news
+    query: "LivePerson"
+    tags: [LPSN]
+
+  - name: AvePoint news
+    type: google_news
+    query: "AvePoint"
+    tags: [AVPT]
+
+  - name: ReliaQuest news
+    type: google_news
+    query: "ReliaQuest"
+    tags: [Other cos]
+
+  - name: CrowdStrike news
+    type: google_news
+    query: "CrowdStrike"
+    tags: [CRWD]
+
+  - name: 1Password news
+    type: google_news
+    query: "1Password"
+    tags: [Other cos]
+
+  - name: Check Point news
+    type: google_news
+    query: "Check Point Software"
+    tags: [CHKP]
+
+  - name: Telos news
+    type: google_news
+    query: 'Telos (TLS OR "Telos Corporation" OR "Telos ID" OR cyber OR security OR TSA)'
+    tags: [TLS]
+
+  - name: Redis news
+    type: google_news
+    query: "Redis security"
+    tags: [Other cos]
+
+  # ---- SEC EDGAR filings (all form types, like RSS.app) ----------------------
+  # To limit a company to certain forms, change type= in its URL (e.g. type=8-K).
+
+  - name: SAIL filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030781&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [SAIL, Filings]
+
+  - name: CVLT filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001169561&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [CVLT, Filings]
+
+  - name: FTNT filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001262039&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [FTNT, Filings]
+
+  - name: OKTA filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660134&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [OKTA, Filings]
+
+  - name: TLS filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320121&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [TLS, Filings]
+
+  - name: S filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001583708&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [S, Filings]
+
+  - name: SpaceX filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001181412&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [SpaceX, Filings]
+
+  - name: RPD filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001560327&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [RPD, Filings]
+
+  - name: QLYS filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001107843&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [QLYS, Filings]
+
+  - name: NET filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477333&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [NET, Filings]
+
+  - name: TENB filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001660280&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [TENB, Filings]
+
+  - name: ZS filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713683&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [ZS, Filings]
+
+  - name: AKAM filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086222&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [AKAM, Filings]
+
+  - name: RBRK filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001943896&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [RBRK, Filings]
+
+  - name: CHKP filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001015922&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [CHKP, Filings]
+
+  - name: MDB filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001441816&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [MDB, Filings]
+
+  - name: PANW filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [PANW, Filings]
+
+  - name: FSLY filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001517413&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [FSLY, Filings]
+
+  - name: AVPT filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001777921&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [AVPT, Filings]
+
+  - name: IDN filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001040896&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [IDN, Filings]
+
+  - name: CLBT filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001854587&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [CLBT, Filings]
+
+  - name: OSPN filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001044777&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [OSPN, Filings]
+
+  - name: CRWD filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001535527&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [CRWD, Filings]
+
+  - name: VRNS filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001361113&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [VRNS, Filings]
+
+  - name: NTSK filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002063196&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [NTSK, Filings]
+
+  - name: LPSN filings
+    type: rss
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001102993&type=&dateb=&owner=include&start=0&count=40&output=atom
+    tags: [LPSN, Filings]

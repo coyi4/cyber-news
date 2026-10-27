@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>News</title>
+<link rel="alternate" type="application/rss+xml" href="feed.xml" title="Combined feed">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: light;
+  --paper: #F3F5F6; --surface: #FFFFFF; --ink: #17212B; --muted: #5E6B78;
+  --rule: #D5DBE0; --accent: #0D6B72; --accent-soft: #DCEDEE;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #11161B; --surface: #182027; --ink: #E2E7EB; --muted: #8E9BA7;
+    --rule: #2A333C; --accent: #6CC7CD; --accent-soft: #1D3638;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 120px); }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 15px/1.45 "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-variant-numeric: tabular-nums;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+header {
+  position: sticky; top: 0; z-index: 5; background: var(--paper);
+  padding: calc(env(safe-area-inset-top, 0px) + 14px) 16px 10px;
+  border-bottom: 1px solid var(--rule);
+}
+.wrap { max-width: 760px; margin: 0 auto; }
+.top { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h1 { font-size: 20px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+#meta { color: var(--muted); font-size: 13px; }
+#markRead {
+  margin-left: auto; font: inherit; font-size: 13px; color: var(--accent);
+  background: none; border: 0; padding: 4px 0; cursor: pointer;
+}
+#markRead[hidden] { display: none; }
+#q {
+  width: 100%; margin-top: 10px; padding: 9px 12px; font: inherit;
+  color: var(--ink); background: var(--surface);
+  border: 1px solid var(--rule); border-radius: 8px;
+}
+#q:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#tags { display: flex; gap: 6px; margin-top: 10px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+#tags button {
+  flex: none; font: inherit; font-size: 13px; padding: 4px 10px; border-radius: 999px;
+  border: 1px solid var(--rule); background: var(--surface); color: var(--ink); cursor: pointer;
+}
+#tags button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+main { padding: 0 16px 48px; }
+h2 {
+  font-size: 13px; font-weight: 600; color: var(--muted);
+  margin: 22px 0 4px; padding-bottom: 6px; border-bottom: 1px solid var(--rule);
+}
+ol { list-style: none; margin: 0; padding: 0; }
+li {
+  display: grid; grid-template-columns: 62px 1fr; gap: 0 10px;
+  padding: 10px 0 10px 10px; border-bottom: 1px solid var(--rule);
+  border-left: 3px solid transparent; margin-left: -13px;
+}
+li.new { border-left-color: var(--accent); }
+time { color: var(--muted); font-size: 13px; padding-top: 2px; white-space: nowrap; }
+li a { color: var(--ink); text-decoration: none; font-weight: 500; }
+li a:visited { color: var(--muted); }
+li a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.by { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.by .t { color: var(--accent); margin-left: 8px; }
+.sum {
+  color: var(--muted); font-size: 13.5px; margin: 4px 0 0;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.empty { color: var(--muted); padding: 32px 0; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1 id="title">News</h1>
+      <span id="meta">Loading…</span>
+      <button id="markRead" hidden>Mark all read</button>
+    </div>
+    <input id="q" type="search" placeholder="Filter headlines, sources, tickers  ( / )" autocomplete="off" aria-label="Filter headlines">
+    <div id="tags" role="toolbar" aria-label="Filter by tag"></div>
+  </div>
+</header>
+<main><div class="wrap" id="list"></div></main>
+
+<script>
+const LAST_KEY = "news:lastVisit";
+const state = { items: [], tag: null, q: "", lastVisit: null };
+
+function safeGet(k) { try { return localStorage.getItem(k); } catch { return null; } }
+function safeSet(k, v) { try { localStorage.setItem(k, v); } catch {} }
+
+const when = it => new Date(it.published || it.first_seen);
+const seenAt = it => new Date(it.first_seen);
+
+function dayLabel(d) {
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const day = new Date(d); day.setHours(0, 0, 0, 0);
+  const diff = Math.round((today - day) / 864e5);
+  if (diff === 0) return "Today";
+  if (diff === 1) return "Yesterday";
+  return d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+}
+
+function el(tag, attrs = {}, text) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (text != null) n.textContent = text;
+  return n;
+}
+
+function renderTags() {
+  const counts = {};
+  state.items.forEach(it => it.tags.forEach(t => counts[t] = (counts[t] || 0) + 1));
+  const box = document.getElementById("tags");
+  box.replaceChildren();
+  const tags = [null, ...Object.keys(counts).sort((a, b) => counts[b] - counts[a])];
+  tags.forEach(t => {
+    const b = el("button", { "aria-pressed": String(state.tag === t) }, t ?? "All");
+    b.onclick = () => { state.tag = t; renderTags(); renderList(); };
+    box.append(b);
+  });
+}
+
+function renderList() {
+  const q = state.q.toLowerCase();
+  const items = state.items.filter(it =>
+    (!state.tag || it.tags.includes(state.tag)) &&
+    (!q || `${it.title} ${it.summary} ${it.publisher || ""} ${it.sources.join(" ")} ${it.tags.join(" ")}`
+            .toLowerCase().includes(q)));
+  const list = document.getElementById("list");
+  list.replaceChildren();
+  if (!items.length) {
+    list.append(el("p", { class: "empty" },
+      state.items.length ? "No headlines match. Clear the filter or pick another tag." :
+      "No headlines yet. The feed fills in after the first scheduled run."));
+    return;
+  }
+  let curDay = null, ol;
+  for (const it of items) {
+    const d = when(it), label = dayLabel(d);
+    if (label !== curDay) {
+      curDay = label;
+      list.append(el("h2", {}, label));
+      ol = el("ol"); list.append(ol);
+    }
+    const li = el("li");
+    if (state.lastVisit && seenAt(it) > state.lastVisit) li.className = "new";
+    li.append(el("time", { datetime: d.toISOString() },
+      d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" })));
+    const body = el("div");
+    body.append(el("a", { href: it.link, target: "_blank", rel: "noopener" }, it.title));
+    const by = el("div", { class: "by" }, it.publisher || it.sources.join(", "));
+    if (it.tags.length) by.append(el("span", { class: "t" }, it.tags.join("  ")));
+    body.append(by);
+    if (it.summary) body.append(el("p", { class: "sum" }, it.summary));
+    li.append(body);
+    ol.append(li);
+  }
+}
+
+async function load() {
+  const meta = document.getElementById("meta");
+  try {
+    const res = await fetch("items.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    state.items = data.items;
+    document.getElementById("title").textContent = data.title;
+    document.title = data.title;
+    const last = safeGet(LAST_KEY);
+    state.lastVisit = last ? new Date(last) : null;
+    const fresh = state.lastVisit ? state.items.filter(it => seenAt(it) > state.lastVisit).length : 0;
+    const upd = new Date(data.updated).toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+    meta.textContent = `Updated ${upd}` + (fresh ? `, ${fresh} new since your last visit` : "");
+    const btn = document.getElementById("markRead");
+    btn.hidden = !fresh;
+    btn.onclick = () => {
+      safeSet(LAST_KEY, new Date().toISOString());
+      state.lastVisit = new Date(); btn.hidden = true;
+      meta.textContent = `Updated ${upd}`;
+      renderList();
+    };
+    if (!state.lastVisit) safeSet(LAST_KEY, new Date().toISOString());
+    renderTags(); renderList();
+  } catch (e) {
+    meta.textContent = "Couldn't load items.json. Check that the last Action run succeeded.";
+  }
+}
+
+const q = document.getElementById("q");
+q.addEventListener("input", () => { state.q = q.value.trim(); renderList(); });
+document.addEventListener("keydown", e => {
+  if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+});
+load();
+</script>
+</body>
+</html>
