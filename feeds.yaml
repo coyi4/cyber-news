@@ -11,7 +11,7 @@
 
 settings:
   title: Cyber
-  site_url: https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO/
+  site_url: https://coyi4.github.io/cyber-news/
   max_age_days: 5           # RSS.app bundle showed the last 5 days
   max_items: 2500
   # Each Google News search only looks back this far (the feed keeps older items from
