@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T23:13:09+00:00",
+ "updated": "2026-10-28T00:35:19+00:00",
  "sources": [
   {
    "source": "The Hacker News",
@@ -28,7 +28,7 @@
   {
    "source": "BeyondTrust news",
    "type": "google_news",
-   "fetched": 7,
+   "fetched": 6,
    "new": 0,
    "blocked": 3,
    "error": null
@@ -36,17 +36,17 @@
   {
    "source": "Varonis news",
    "type": "google_news",
-   "fetched": 10,
-   "new": 1,
+   "fetched": 9,
+   "new": 0,
    "blocked": 6,
    "error": null
   },
   {
    "source": "SentinelOne news",
    "type": "google_news",
-   "fetched": 17,
-   "new": 1,
-   "blocked": 13,
+   "fetched": 12,
+   "new": 0,
+   "blocked": 10,
    "error": null
   },
   {
@@ -68,33 +68,33 @@
   {
    "source": "Arctic Wolf news",
    "type": "google_news",
-   "fetched": 12,
-   "new": 0,
+   "fetched": 13,
+   "new": 1,
    "blocked": 4,
    "error": null
   },
   {
    "source": "Fortinet news",
    "type": "google_news",
-   "fetched": 52,
-   "new": 0,
-   "blocked": 34,
+   "fetched": 51,
+   "new": 1,
+   "blocked": 35,
    "error": null
   },
   {
    "source": "Akamai news",
    "type": "google_news",
-   "fetched": 39,
+   "fetched": 42,
    "new": 2,
-   "blocked": 30,
+   "blocked": 32,
    "error": null
   },
   {
    "source": "Wiz news",
    "type": "google_news",
-   "fetched": 37,
+   "fetched": 22,
    "new": 0,
-   "blocked": 6,
+   "blocked": 3,
    "error": null
   },
   {
@@ -117,40 +117,40 @@
    "source": "Cisco news",
    "type": "google_news",
    "fetched": 54,
-   "new": 1,
-   "blocked": 25,
+   "new": 4,
+   "blocked": 26,
    "error": null
   },
   {
    "source": "Zscaler news",
    "type": "google_news",
-   "fetched": 48,
+   "fetched": 25,
    "new": 0,
-   "blocked": 40,
+   "blocked": 19,
    "error": null
   },
   {
    "source": "Palo Alto Networks news",
    "type": "google_news",
-   "fetched": 57,
-   "new": 2,
-   "blocked": 37,
+   "fetched": 58,
+   "new": 1,
+   "blocked": 38,
    "error": null
   },
   {
    "source": "Rapid7 news",
    "type": "google_news",
-   "fetched": 9,
+   "fetched": 10,
    "new": 0,
-   "blocked": 6,
+   "blocked": 7,
    "error": null
   },
   {
    "source": "HackerOne news",
    "type": "google_news",
-   "fetched": 8,
+   "fetched": 7,
    "new": 0,
-   "blocked": 4,
+   "blocked": 3,
    "error": null
   },
   {
@@ -172,8 +172,8 @@
   {
    "source": "Rubrik news",
    "type": "google_news",
-   "fetched": 23,
-   "new": 0,
+   "fetched": 19,
+   "new": 1,
    "blocked": 17,
    "error": null
   },
@@ -196,9 +196,9 @@
   {
    "source": "Fastly news",
    "type": "google_news",
-   "fetched": 10,
+   "fetched": 11,
    "new": 0,
-   "blocked": 8,
+   "blocked": 9,
    "error": null
   },
   {
@@ -220,9 +220,9 @@
   {
    "source": "OneSpan news",
    "type": "google_news",
-   "fetched": 7,
+   "fetched": 6,
    "new": 0,
-   "blocked": 7,
+   "blocked": 6,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
   {
    "source": "Tenable news",
    "type": "google_news",
-   "fetched": 15,
+   "fetched": 16,
    "new": 0,
    "blocked": 14,
    "error": null
@@ -301,8 +301,8 @@
    "source": "Cloudflare news",
    "type": "google_news",
    "fetched": 50,
-   "new": 0,
-   "blocked": 31,
+   "new": 1,
+   "blocked": 32,
    "error": null
   },
   {
@@ -316,8 +316,8 @@
   {
    "source": "Sysdig news",
    "type": "google_news",
-   "fetched": 3,
-   "new": 0,
+   "fetched": 4,
+   "new": 1,
    "blocked": 1,
    "error": null
   },
@@ -332,9 +332,9 @@
   {
    "source": "Okta news",
    "type": "google_news",
-   "fetched": 37,
-   "new": 0,
-   "blocked": 29,
+   "fetched": 24,
+   "new": 1,
+   "blocked": 17,
    "error": null
   },
   {
@@ -348,8 +348,8 @@
   {
    "source": "Ping Identity news",
    "type": "google_news",
-   "fetched": 8,
-   "new": 1,
+   "fetched": 7,
+   "new": 0,
    "blocked": 3,
    "error": null
   },
@@ -412,23 +412,23 @@
   {
    "source": "ReliaQuest news",
    "type": "google_news",
-   "fetched": 14,
+   "fetched": 36,
    "new": 0,
-   "blocked": 8,
+   "blocked": 26,
    "error": null
   },
   {
    "source": "CrowdStrike news",
    "type": "google_news",
-   "fetched": 46,
-   "new": 0,
-   "blocked": 39,
+   "fetched": 66,
+   "new": 6,
+   "blocked": 47,
    "error": null
   },
   {
    "source": "1Password news",
    "type": "google_news",
-   "fetched": 15,
+   "fetched": 16,
    "new": 0,
    "blocked": 4,
    "error": null
@@ -436,9 +436,9 @@
   {
    "source": "Check Point news",
    "type": "google_news",
-   "fetched": 29,
-   "new": 0,
-   "blocked": 18,
+   "fetched": 41,
+   "new": 8,
+   "blocked": 23,
    "error": null
   },
   {
@@ -637,7 +637,7 @@
    "source": "CRWD filings",
    "type": "rss",
    "fetched": 40,
-   "new": 0,
+   "new": 1,
    "blocked": 0,
    "error": null
   },
@@ -675,7 +675,12 @@
   {
    "domain": "techtarget.com",
    "publisher": "TechTarget",
-   "items": 19
+   "items": 22
+  },
+  {
+   "domain": "sec.gov",
+   "publisher": null,
+   "items": 16
   },
   {
    "domain": "calcalistech.com",
@@ -683,9 +688,14 @@
    "items": 16
   },
   {
-   "domain": "sec.gov",
-   "publisher": null,
-   "items": 15
+   "domain": "streetinsider.com",
+   "publisher": "StreetInsider",
+   "items": 7
+  },
+  {
+   "domain": "cybersecuritynews.com",
+   "publisher": "CyberSecurityNews",
+   "items": 7
   },
   {
    "domain": "seekingalpha.com",
@@ -698,18 +708,13 @@
    "items": 6
   },
   {
-   "domain": "streetinsider.com",
-   "publisher": "StreetInsider",
-   "items": 6
-  },
-  {
-   "domain": "cybersecuritynews.com",
-   "publisher": "CyberSecurityNews",
-   "items": 6
-  },
-  {
    "domain": "cnbc.com",
    "publisher": "CNBC",
+   "items": 5
+  },
+  {
+   "domain": "itwire.com",
+   "publisher": "iTWire",
    "items": 4
   },
   {
@@ -735,11 +740,6 @@
   {
    "domain": "gatorswire.usatoday.com",
    "publisher": "Gators Wire",
-   "items": 3
-  },
-  {
-   "domain": "itwire.com",
-   "publisher": "iTWire",
    "items": 3
   },
   {
@@ -823,6 +823,11 @@
    "items": 2
   },
   {
+   "domain": "inc.com",
+   "publisher": "Inc.com",
+   "items": 2
+  },
+  {
    "domain": "news.fsu.edu",
    "publisher": "Florida State University News",
    "items": 2
@@ -873,6 +878,11 @@
    "items": 2
   },
   {
+   "domain": "itvoice.in",
+   "publisher": "IT Voice Media",
+   "items": 2
+  },
+  {
    "domain": "quantumzeitgeist.com",
    "publisher": "Quantum Zeitgeist",
    "items": 2
@@ -895,6 +905,11 @@
   {
    "domain": "infoq.com",
    "publisher": "infoq.com",
+   "items": 2
+  },
+  {
+   "domain": "blog.checkpoint.com",
+   "publisher": "Check Point Blog",
    "items": 2
   },
   {
@@ -943,6 +958,21 @@
    "items": 2
   },
   {
+   "domain": "law360.com",
+   "publisher": "Law360",
+   "items": 1
+  },
+  {
+   "domain": "datacenternews.asia",
+   "publisher": "DataCenterNews Asia Pacific",
+   "items": 1
+  },
+  {
+   "domain": "bloomberg.com",
+   "publisher": "Bloomberg.com",
+   "items": 1
+  },
+  {
    "domain": "canberratimes.com.au",
    "publisher": "The Canberra Times",
    "items": 1
@@ -950,6 +980,21 @@
   {
    "domain": "benallaensign.com.au",
    "publisher": "Benalla Ensign",
+   "items": 1
+  },
+  {
+   "domain": "countrynews.com.au",
+   "publisher": "countrynews.com.au",
+   "items": 1
+  },
+  {
+   "domain": "kyfreepress.com.au",
+   "publisher": "Kyabram Free Press",
+   "items": 1
+  },
+  {
+   "domain": "cobramcourier.com.au",
+   "publisher": "Cobram Courier",
    "items": 1
   },
   {
@@ -978,6 +1023,11 @@
    "items": 1
   },
   {
+   "domain": "thenevadaindependent.com",
+   "publisher": "The Nevada Independent",
+   "items": 1
+  },
+  {
    "domain": "technobezz.com",
    "publisher": "Technobezz",
    "items": 1
@@ -990,56 +1040,6 @@
   {
    "domain": "securityinfowatch.com",
    "publisher": "Security Info Watch",
-   "items": 1
-  },
-  {
-   "domain": "fortune.com",
-   "publisher": "Fortune",
-   "items": 1
-  },
-  {
-   "domain": "decrypt.co",
-   "publisher": "Decrypt",
-   "items": 1
-  },
-  {
-   "domain": "pymnts.com",
-   "publisher": "PYMNTS.com",
-   "items": 1
-  },
-  {
-   "domain": "openai.com",
-   "publisher": "OpenAI",
-   "items": 1
-  },
-  {
-   "domain": "everythinggp.com",
-   "publisher": "EverythingGP",
-   "items": 1
-  },
-  {
-   "domain": "inc.com",
-   "publisher": "Inc.com",
-   "items": 1
-  },
-  {
-   "domain": "opusresearch.net",
-   "publisher": "Opus Research |",
-   "items": 1
-  },
-  {
-   "domain": "biometricupdate.com",
-   "publisher": "Biometric Update",
-   "items": 1
-  },
-  {
-   "domain": "thedailystar.net",
-   "publisher": "The Daily Star",
-   "items": 1
-  },
-  {
-   "domain": "teslanorth.com",
-   "publisher": "TeslaNorth.com",
    "items": 1
   }
  ]

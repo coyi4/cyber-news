@@ -1,7 +1,152 @@
 {
 "title": "Cyber",
-"updated": "2026-10-27T23:13:09+00:00",
+"updated": "2026-10-28T00:35:19+00:00",
 "items": [
+{
+"id": "fcac884ae2b8b807",
+"title": "Fortinet expands unified SASE to simplify microbranch security",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSnFWRDBFWk1oTERtbV8teDV5NE5ESXZVV3JNZlpkMkwwV2lGNjg5WlVYWWNfQ2hNa1dHVC1FWThpWWVFMEFvSkkyaGc5S3RoTHVHU2dvRDRYTVR5Nml2ZHVZdE04S19RdFVUaDZicnY2YXhSSEpscjNnN2hrMjVMSEYtSkVRYnRhRkRlSGVDUy02WU13STlQWVFqSHJzdm9kR3dfTURlRjM3c2pwTFE?oc=5",
+"published": "2026-10-28T00:04:03+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "iTWire",
+"domain": "itwire.com",
+"sources": [
+"Fortinet news"
+],
+"tags": [
+"FTNT"
+]
+},
+{
+"id": "67c20366953ceb4e",
+"title": "Form 4 CrowdStrike Holdings, For: Oct 23 Filed by: Kurtz George",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcWN5VXg3bDBMNmVMVkVrU0p2ZlpjWUNrNk9GOGVkV3Z2T1dBV1FJY29PNjVfLTZ2dEFnbDRxQ0lsUU1WSnZMaWlHY3ppYm1QUXlwaEc2QWxsMEIwSnJsQ0g2WS1ndnFFUTltLXpZNlBJWEpLSlJNaFRTeWdpRTl5MEliMVg0M3Z5dlNlVmlzRHJDMGtuRjdzQ082WDRJbFNYVUhFSHkyWWw3OFNHNUFCbjFNYVAtZUZpNk43bXB0SGxfN3M?oc=5",
+"published": "2026-10-28T00:01:10+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "StreetInsider",
+"domain": "streetinsider.com",
+"sources": [
+"CrowdStrike news"
+],
+"tags": [
+"CRWD"
+]
+},
+{
+"id": "89778fbe3070a8bd",
+"title": "4  - Statement of changes in beneficial ownership of securities",
+"link": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000193/0001778564-26-000193-index.htm",
+"published": "2026-10-28T00:00:07+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "Filed: 2026-10-27 AccNo: 0001778564-26-000193 Size: 63 KB",
+"publisher": null,
+"domain": "sec.gov",
+"sources": [
+"CRWD filings"
+],
+"tags": [
+"CRWD",
+"Filings"
+]
+},
+{
+"id": "921e6f1c7175d49b",
+"title": "Okta CEO Todd McKinnon: We need a way to differentiate between the good agents and the bad bots",
+"link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQzhlUjY4NVVSVXZXdzc2TkRpaC16NW9uaGVENVI0NlVvbGUtVWYteENrZFdaQkFCQWlIeGRXWjFVQTEwN2ZhZ1RHZUlGNjBsTTNCRU9DUnQzdFk4WnQyc0pXaldCWnd2MzFZOVZ1amdBV0NUY3BUdE95bGdrb2hvaTR3ZWZHRS1ZcHlzVnV1MVdjQndMWV9uSUZYemtpbGVZRl8yY3YzRU1STXlkSjVfNTNJTk9RandfbG5aa29saHd2Z3V4ekxvTHhrZXhvRWdORzhZY3NVcXhKZXRRLUstRGk5b0h5dw?oc=5",
+"published": "2026-10-27T23:59:55+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "CNBC",
+"domain": "cnbc.com",
+"sources": [
+"Okta news"
+],
+"tags": [
+"OKTA"
+]
+},
+{
+"id": "7df036327080e933",
+"title": "Massive DoD DevSecOps standards push may aid enterprise IT",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORDliV0FGZUx2UjY5TGw3emt1UkVWVnRLZWtFX2dpTGswUW9tVm9iNmpHVUJEYjJudGRTVDJtWjdRSUh3azZoYTN6UEZ2MWQtWGdrdE5wTVlZdDVCa3dtNWRsbldOMUhwTjlYMzd2WmRFZE1uRUhOT0JWcEgyckd3WHNVckdmRUtCWW1UN0NLeG9DWUFtTjRfRklhYmZOeHc?oc=5",
+"published": "2026-10-27T23:38:20+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "TechTarget",
+"domain": "techtarget.com",
+"sources": [
+"Sysdig news"
+],
+"tags": [
+"Other cos"
+]
+},
+{
+"id": "9582204594e2faf6",
+"title": "CrowdStrike Wants Fed. Circ. To Ship Patent Case To Calif.",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdFZSRFY2SEJodXpDVmx4dlk3c2Q3NDkydHZLQnZybURqdE56QzRZQlJ5SzJxVXZXNmFoR2s5RDZucHRTUUdmMlpERDNDajBaZTJsT0hTOUtEel9SNkNYcWp3MXFwWXBFZ0sxSkhSWkJCeG4xQWhPT3dSdFVzRzNSZWYwQm9jQ0N4SkNWWC1kdU5GR2cwOEJWQmhoMjXSAVZBVV95cUxOSFJ6YTFWRDY2aDdnTG5BSXJ1TExMZFVPSlJrekJyTzBSaG5KTldZY2FLZkVDYjBXUXdKLVMyRF90MzBzQ29ES05yVVZxekstTHJUOGNMdw?oc=5",
+"published": "2026-10-27T23:28:54+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Law360",
+"domain": "law360.com",
+"sources": [
+"CrowdStrike news"
+],
+"tags": [
+"CRWD"
+]
+},
+{
+"id": "0cd5fd54f49a2471",
+"title": "Cloudflare records 49 global internet disruptions in Q3",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWVY1NzZOWnk3Um9iV1ZRSGpNVjlHYlY0ejY4TlhVcTYxWlRtWlpILTlRR1RlcFRqOC1kaWR1dDBOaUNLRzdHVTdVQkNGaDlXUVdhVzJLeGMxSU81cEdXNDdjOTF5eWFzZzFEeVlZUzkzbHNOVURTZUwyT09hLUNYUUVKWmdoZ19rb1FkbmQ4WTAybDA?oc=5",
+"published": "2026-10-27T23:27:00+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "DataCenterNews Asia Pacific",
+"domain": "datacenternews.asia",
+"sources": [
+"Cloudflare news"
+],
+"tags": [
+"NET"
+]
+},
+{
+"id": "e3058c3829b804cd",
+"title": "A roundup of the Cisco certification changes in 2020",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTkhEOWtkSXh0UElFS1R6aHdHQ0MtRDlDUXpoMG9ZalpDVFd2cEFVTnZpRG1pRHpVSUVIcXp3eEtHcU9VWjgtaTA2UlhpUERZYXdnUjdBcFAzR1Fxb0xBQnlGUElRZ01MbFhJWFhvWjBySV91TWd0SWNEYVJUT2M5bkhLa1hFczdTUzRGenR2djZMalhMRUxZ?oc=5",
+"published": "2026-10-27T23:25:47+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "TechTarget",
+"domain": "techtarget.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
+]
+},
+{
+"id": "cf47c461b32bb39f",
+"title": "Palo Alto Networks CEO Gets Smaller Pay Package After Pushback",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLXNBd0E3MGVBWUVZT0xIWjBTbHl6R1hsM21hTjkxaXk0YmM3eFZ2MzBIR0lZdUh5SmwwVHljZmdKNTh0ZUFwQ2M2R1FHSndEOHJKSUM2YzZWYk16MnpsSUZrSG5uMVIyMFhTWHhCZmZ2dVhrMnVKcElCRXlFUC0yZUtWcmd4bkJRNWFxZThfemF6VzVzb3N3YldReHNUbmRDRlI0WWRwWVNsTEU1TnBzN1dEUQ?oc=5",
+"published": "2026-10-27T23:24:04+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Bloomberg.com",
+"domain": "bloomberg.com",
+"sources": [
+"Palo Alto Networks news"
+],
+"tags": [
+"PANW"
+]
+},
 {
 "id": "7eaa9e9fb7239b59",
 "title": "Florida gets new, but familiar bowl destination in SI projections",
@@ -272,6 +417,22 @@
 ],
 "tags": [
 "Industry"
+]
+},
+{
+"id": "c262a36b975781ce",
+"title": "Cisco Isovalent Load Balancer takes aim at Broadcom’s VMware",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGQ4ZlZHYkNQeno0VmJYVndzdFktQ2pzcldYc0prWGM5T2hCMFhGUjZTaEI5eVNVUnFiSkdQZ0VwY2JYcV9KbG5pQWRmX3g3akxTOU5pLWFCakltNHNJeW5UX3dqb2lvRHFlOTduM2V1NnF0ZnNvWmtjRThkVU42cW5na3p2YUUxb004dEY4cVZmNFdGcnQ2dDFzYlkzUkVJ?oc=5",
+"published": "2026-10-27T22:56:33+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "TechTarget",
+"domain": "techtarget.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
 ]
 },
 {
@@ -581,6 +742,54 @@
 ]
 },
 {
+"id": "0643d587454853a5",
+"title": "| Country News",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWERjdkc2Z0VwdWZSTlJTS2lOaHF0MUpqeG9tSTFFMVROOURCUjFuWks1Y3drNFBFbEtSN3NDTnA0ejlDOENhdUVzY1Nabm4yb1NhYTJ1dXVDYzk3Wi15TjRSZkpxZl9uSXg0Z0c2Z2szOERWVDh0UFQtck5oQWpvd1FDODFUZW5kSktRc0VpeEdVOEtQcEE?oc=5",
+"published": "2026-10-27T22:00:00+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "countrynews.com.au",
+"domain": "countrynews.com.au",
+"sources": [
+"CrowdStrike news"
+],
+"tags": [
+"CRWD"
+]
+},
+{
+"id": "fa8d224358fe4f7c",
+"title": "| Kyabram Free Press",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM3BTeXJBalpVbmplbTRsYk1BRXBKTG9VY3F1WjBrRGEyZXJ0YTFmWGlSNWFpMnljM3lIU21qWFUwRmlYMHFtbWNKbnJRRnFscWd0bzFTMDJSRG1GZ0paUG54MXFkV2FFaVU0TlR4V1RGSTB2dzJSZzhkc0RMZE9RbWRWNlE1a01OTnZwMHBTNjZQVlV0bWc?oc=5",
+"published": "2026-10-27T22:00:00+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Kyabram Free Press",
+"domain": "kyfreepress.com.au",
+"sources": [
+"CrowdStrike news"
+],
+"tags": [
+"CRWD"
+]
+},
+{
+"id": "400a6f68d72cf71d",
+"title": "| Cobram Courier",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05TOG5qekdISjZLb0dKWTh4SHRfU2Etd1JheHhlMlhENG1KVDBzSUhyT19iTTlWdDZLLWtIVm9OcWhVcW1HZkFkaVFaWi1nTkg4dktKbUtmZnV4b1VPQ0RtbDlqaHV0VE95a3h2dEtUQVFjRGNkLW0xeTJqYVhhOThiMXQ1VjF2M2REaTRNcVp2bTNBQS1mXw?oc=5",
+"published": "2026-10-27T22:00:00+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Cobram Courier",
+"domain": "cobramcourier.com.au",
+"sources": [
+"CrowdStrike news"
+],
+"tags": [
+"CRWD"
+]
+},
+{
 "id": "dacef01f21189ef6",
 "title": "Saviynt Recognised in 2026 Gartner Magic Quadrant for Privileged Access Management",
 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMUtRcnJ2eVZYOVd0YlZXaTgzVzh3TVByYTVIRldRNmlYOXJ2bWwwTUd2QVItME9Iek0waEdYNnpnMVY0T0NrYUpXaG5lbHVVY2VPZVFXbmFSWS1XRHVUaU14M1JWdXFta1l1Tk5TY0lqa1hyVnVOMERUNmEtNG1VUC1nWWNhWVhzWTR3dDUtdFpzUC1xUzlTWXVKQ0tzLXE0d1VaaUNQWkNGMTNZV01tXzE3eDNEdzZkNWwtRzZsYVZZN3VXc21wYQ?oc=5",
@@ -732,6 +941,22 @@
 ]
 },
 {
+"id": "0d53e2b70a689ce3",
+"title": "This Microsoft Teams Setting Could Be Making Your Company Vulnerable. Change It Today",
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT0lCWG1QbXpJcS1QeGtaSWZPTTlud1FIVkhYdGoyVHAzTXFVMnA2VDExeGoxZERRMkxheTBYQkFYbjJqczZhN2RzZUtXcTJhYlJiaDhsMTNqcGQxTHN4ZVpXcHROOEx2V3h2ZzRwQ3VMUlhzQTFiQVNPRGUwa2hxMnVTYzdaTkRjM1JPNXFoVVI0SWNIQng0OFpRdkxvWFU0TmdxUUl4WEt5cjJFbXFmaUtTNEVCc18xb0NyeERsQUJPOWlz?oc=5",
+"published": "2026-10-27T21:03:57+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Inc.com",
+"domain": "inc.com",
+"sources": [
+"Arctic Wolf news"
+],
+"tags": [
+"Other cos"
+]
+},
+{
 "id": "8798e63eaebf347f",
 "title": "Use Fortinet solutions to secure enterprise AI workloads on Oracle Cloud Infrastructure",
 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FdllvTDR6MEpvZEtLbTJHNWNFakc1UEFVNlE2MXhkMnlzdGRMU1AzTlp2SlBtX2tnU01ROC05djU4V0pZcjlKcnJjQzhrZTNOY3ZmUFpRaXhLVEk1cmxHR3piM05icGZQd19EdlZKMVBxaG1GcFVzMWR3cFZfQQ?oc=5",
@@ -875,6 +1100,22 @@
 "tags": [
 "Filings",
 "ZS"
+]
+},
+{
+"id": "7c63d7b20096707d",
+"title": "Despite Trump admin request, Nevada won't use voter citizenship system amid fear of errors",
+"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYTlOMm9IWTBTLU1ZOXBwejBiaW9VV0tGclRSMEVrMVA2STFUT3pVVU5OTnJMVzMyNDRtbHY0LUxtV29PajZmV3FhampzT0c2Nm5sRGVudy1MZFh0Mi1Db0VEUjBxMXhabWk5dXpKU3l6ZVo3UE1rbE51MG9KTHg2aWxvS2g5ZEhUbmhnMGxhWHJpcV9KdWY0SDRxcXhYYXlXZDdUbGdLMU5pSTR0TlViUkV2cHRPMURYZGNDUzgwbEExc0oxOFR0eA?oc=5",
+"published": "2026-10-27T20:16:26+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "The Nevada Independent",
+"domain": "thenevadaindependent.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
 ]
 },
 {
@@ -1261,6 +1502,22 @@
 ]
 },
 {
+"id": "d8d3af3ec1d99bdf",
+"title": "5 Small-Cap Cybersecurity Stocks With 5x Potential (and My Favorite Overall)",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWTBBM0xTV0hQcWY0ejVvbllScVlaUGV4U19fLWlwYk9uaHVSVUI2NnlQbi1tUDJwYXB0QXY4bmZ6bWxaTWktZWt0MDg5NUhFTmFCSWpnNkFlUEZQVkxUV2lHc0hzTm5UbXd2R3I2NTdhalFhcWk5M3EyMGZjdFYwMg?oc=5",
+"published": "2026-10-27T17:53:49+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "InvestorPlace",
+"domain": "investorplace.com",
+"sources": [
+"Rubrik news"
+],
+"tags": [
+"RBRK"
+]
+},
+{
 "id": "22bbfc630833981f",
 "title": "Cisco’s Dialog Takes Customer Service Beyond the Conversation |",
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMWxHeV82bUprVnR3b2Nldm5MRXV5VjJuUjdqM1RFLXpNRmNRTFdEWllnS1BtZmNqeFZhUmlYZ1JUNURSNmxPbDJPMWNfa2tyMFdWQlhvbmNQZk9UUTdBMjRTbVVncXNNdWYtRGd5eWE3ZHZkakRzZUprSkxEM091WHh1eGFmNlZRcWZMR0l0ODU4enJac0htX3NVR19ZUQ?oc=5",
@@ -1557,6 +1814,22 @@
 ]
 },
 {
+"id": "316e7265f5d44e76",
+"title": "Jim Cramer is Bullish on These 10 Stocks",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUnVaV1VmSi1jUjl0RGNxak5aOFdQUHlBa2t4VTRDYVNkNWdWMXozS2NZX19SMnBtN2NBUTVBTl9kaGZwY1lHY1htdDBvZnFxNnM2OUxqa1JUSldvOXZQOVJRSE13YlZCcFZOWTJTcm1Vb1lZOGx1QjQ2MkVrbUlKU3lkSzVIZ2dLVThmaUV2MNIBlwFBVV95cUxOeUF3ZnBPVGNBYkFOX0dpNktBMXoxVkthazdVcFlqVy02QTAwMjlQcjFoQ3F1TzZmSmR1dnRveGNVV3dwcjlaY0R2Z2FZRFh1aGdiRFB3R3JqTXN5bmUxZUFEUzd1UFF6VDVFbGdvQmVnRU1halNhR2FmeWdNd3M1OXF0T1VGdEQ2MXVvY1JGWThud3JsRGgw?oc=5",
+"published": "2026-10-27T15:08:51+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Insider Monkey",
+"domain": "insidermonkey.com",
+"sources": [
+"Akamai news"
+],
+"tags": [
+"AKAM"
+]
+},
+{
 "id": "77b3ebfb59def36a",
 "title": "Cybercrime Magazine Explores Why Quantum Readiness Must Become a Boardroom Priority in New Film Sponsored by Keyfactor",
 "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOY3lxdlRMbnp3Z0g2RThGcUt2MjNfUko4MVc5MGJGblpyNlVfc3dRc2FKZlJJZkFLZGowMFh6c0F0R1l0Z1VJTjJucVo3QmtiMU5ETm1TdzFEc1BVeXh4enhrMVZNdnRoMUhNMHhhb3JGN2YwSGhjQWw1QThDUUJUb3pVbmN1bEl5UkxnUVFGMXlEQ085aHk0bUJKUC03TmV6c21xcThzVnczUV9VdWozN1JsWE5oMzJoaE5CLWhNa2FaVWF2NXdEYjBXbnpGSGdaZGYtT3VxT0ZNMmJOOHAtanp3eWdPY2c5dlREY1JGclNoa2h3UXIzSVhEMFI2TzhXWWlCYw?oc=5",
@@ -1586,6 +1859,22 @@
 ],
 "tags": [
 "Other cos"
+]
+},
+{
+"id": "c3684587b99025b2",
+"title": "Hackers Abuse Signed ChatGPT and Claude Binaries to Deploy Malware Through Fake GitHub Downloads",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1waGZ6STRNMzFRVk1Qd05jWnNTZFQ2QnJsMmlJZ0pUSDlESTgtSDFwQUFxQkh6X09xaFI0MFRhYkhmcm93SUVhYlZfVXFKczlVTGV5MVBOMC1aaUxxRVVTZGNFY2hkT2JYbm1NUnA2TE5HYnPSAXhBVV95cUxPZFdaWGVUeFlYVnptR2xzYlFVSFY0ZERmcmpyelEwWkRVbjFJQksyQkltOEhGWGFrY0J1U1BtbkJSTGRUWVhDOFc3UXowVC1TT2RFR1loMVZuYjYtenBuQ0dUa2NyaUs1YlVrQnNTbjJ0Q3ZEc0ZQbFc?oc=5",
+"published": "2026-10-27T14:49:34+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "CyberSecurityNews",
+"domain": "cybersecuritynews.com",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
 ]
 },
 {
@@ -2008,6 +2297,22 @@
 ]
 },
 {
+"id": "cc6a2c1f5454f18b",
+"title": "Consistent Infosystems Launches 2MP CCTV AHD Bullet Camera with Dual-Light and Night Vision",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU2lJM08zejM3cVNBTnhnM1gtTkFYQjdYYVlQaFZLQThuTlR5eXRWTlc1V2FmeG1uN3pCdW5RNE43d1ozMGVIX1IyeU1XYWdoWTB6bHg4ZnItYS01NW5DdlJJbVVPanJVVUZHU0FPME1QSlJjMnB4c09mN19JeUJMcjhLVXVLQ0Y2aFZ3U29UcGI0V1RDaDJWNjJ3TGFzaDNTSDIwSDcyY0NyNHR3NkJZdEtPRm0?oc=5",
+"published": "2026-10-27T12:19:30+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "IT Voice Media",
+"domain": "itvoice.in",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
+]
+},
+{
 "id": "e8a20d4cef3f6184",
 "title": "Fortinet wants to secure agents before they go awol with inline AI security service",
 "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR092ZkdEVy0zdUFWX0hQTnBnTWJYZGdBM05tcnRIY0QybTY3TVFlWHc0eE1KRV96SUp1bFBtVHd1a0JZejJkXzF1ZFZmTlNJMzN5dHJpTkYyU01veF81QmZVMzFpTnVVSU1JWTNtdHRtWEp6Q1J3QlA0bFFSQmVLRDJBRVRiYUZlRW41UElUUG9EQWtMT05NSlVkSEhOTVhyVG5IYUNSTGNMRG5KU0FJZG9hWWtZdU0?oc=5",
@@ -2021,6 +2326,22 @@
 ],
 "tags": [
 "FTNT"
+]
+},
+{
+"id": "b7268b8224770c8b",
+"title": "Indore Comic Con 2026: Dates, Venue and Ticket Details",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQanJiRURZV0YxYW1KdjluTFZrcUNBZUtXVHZ4M1dObVdnNDdLOHJCVXdwdDh5Z1puak1tUm5TdXZ4Z3U4bnJfdlB3T1ZLREVkXzQtY1g1WjZ1UEVRcGYtLURpT19DajgtNmREUGRBc29zaVZERmxaLWpxOTVRcDhJTXZNME9NNUVNTWpTS0pISHhvUUtTbEdPRlc1X1ptYjlPNlRTWk05aTJDdzhsaVcyeVlPbHVnV0VvY1VMSFRlUQ?oc=5",
+"published": "2026-10-27T12:12:08+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "IT Voice Media",
+"domain": "itvoice.in",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
 ]
 },
 {
@@ -2313,6 +2634,22 @@
 ]
 },
 {
+"id": "ac85840037400aa6",
+"title": "Application Security Posture Management Market Size",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OWFQ3OF9vemkzWVQ3QXNiWmZWVFctckVfNFdEZzZHTnRFRE9ZR2xSNndqVzJWRERFWEZ4QzF0RDNWc3hmdEtoeUVCSVdoeHBSOUFhRnBSNWNjZG9fVnA2dUpTUVMxREV5VTlfbEpwZmdDcVBEaEY1STNuUmM?oc=5",
+"published": "2026-10-27T10:16:40+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Market.us",
+"domain": "market.us",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
+]
+},
+{
 "id": "a9d5828c45cf98be",
 "title": "Stephens Downgrades Varonis Systems (VRNS) to Equal Weight",
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKemJpcXFrSUVRckFVdjlzc05XbFFZQndYZ1laRXktTWE4aEx3YWZ5d0UtbmRHM3k4eFhxU29UTHNwRlB5TWlTaGp1eGdORHpKNmpNVW9RUjgxZFhKcTlxTkFFRmFRZlpsVEVIRQ?oc=5",
@@ -2537,6 +2874,22 @@
 ]
 },
 {
+"id": "aa9025908dc6f37d",
+"title": "McRock Capital’s Fund I nears final close after signing up second strategic LP",
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaFMtTHR1VzZJZnlBRHJOcDgwMnpQWC1QV0N4QUlmOXI3QzRKTXBCUmpsak9YOG1KN21LZnBNMnhRVkREdWdOWHpreUpOZFdCR2FCU2pKQmVybW9NMXBZcXRPUmpDNmhQSTBkcnFwZFBoYm9WTFYwMExMSEJVRDFkYy1yVWVqMkVrUy0xdlZMbEg5dnVqaV95WS1KSHVMbGFDa3BJZXdkVFFtU0w4Mkkya2hnQ3NoWk82a3BiaGV3?oc=5",
+"published": "2026-10-27T08:41:08+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "PEI Private Equity",
+"domain": "privateequityinternational.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
+]
+},
+{
 "id": "0d8c9b72a939929d",
 "title": "Cisco Announces General Availability Of ‘really, Really Powerful’ Partner Tool",
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVUpVUG1VcDBrR1pyUEhLMldWRHBxdXJ4QmFwdXdDVG5PWDdiWWozN2RDVUo0eGVBUXFqR09tLVFtYmc5bXpkYTJmU3RXb1dTNDhsN0NEV2NrRkV3MllKd3lFYjluYjJBY1ZEN0wyaWtJc2k4bXFEVks0ekQtUjNNRW9HdGlQZGF0TXNsWnJSOVZfVmZnTjNnaEY1SmFpX0FLbVA2R3psYw?oc=5",
@@ -2745,6 +3098,22 @@
 ]
 },
 {
+"id": "c52fe897e0afd23d",
+"title": "US close: Stocks higher as Anthropic IPO filing lifts chip stocks, policy week begins",
+"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYklCeDFObWZaS2kwVWdZcWhEeW9RUEdUcWU1SkdFSzFQZzFZMHQ0Q3RLd2pKTHBGMnBZS1B1UlN1MTVwVlExY2ZPUkJXNExidWh5djRVaTVnLWZaMkx2YXlXYjV6ZU8zaUdiWGlyVHBhQ2ZmYTc1dmg2VnY1V24yRV95bTJnM1BSN0lYUHo2V1lQWjBvQURVMFE2MXROZWRURkVoWkIzMVdxMmN5Y0l2cVp6a1diM0NCTVBkWGhJaU9GR0FMeVBlblpZc25Pc2I5S0U4?oc=5",
+"published": "2026-10-27T06:59:50+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Sharecast.com",
+"domain": "sharecast.com",
+"sources": [
+"Akamai news"
+],
+"tags": [
+"AKAM"
+]
+},
+{
 "id": "3533ed7b475d359a",
 "title": "Three Labs Confirm Serbia Hacked Rector and Prosecutor With Pegasus Before Vote",
 "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSnI1cHZLbTIxX1lka1NSQVEyMkVXZENoU0dOVE9lQ2c1ZEMyc0NUMnlQd1pQNGZCaGJWLVIwLXpodDNsQU9nTWFUZjlLdUpOTnpFOFBvUWpmV2RaY0RiNW43R1B5MHNTc3NSb0ExbGZCV0RsTUVvTnNNV1EyMHpBeDB5d1ZWb0ZnMGZaSGYyNUZ3blFNYXJNLVN0bEhpdndFQUVMNk5sYWw0dE5QUzJwekxpYURaaGFKdEhocE5QdG5qSTQ?oc=5",
@@ -2822,6 +3191,22 @@
 ],
 "tags": [
 "Other cos"
+]
+},
+{
+"id": "da67f84e77520314",
+"title": "Yoba Malware Targets ChatGPT & Claude Users With Fake AI Apps",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeFhSVUM3RlhZT0tZMjd0bnR6aUxSVkR5WkEwTUNVQUU2WDlzeTUxZGN5X1JNQnJLaWV3VVUwUFlZMUZYR0FUYmwzN25WTjZza3c1dWJmcUxkZEJ3eEh5c0JnUFo5d1NHYUFMMlVXYjUwemNpVU5VOUl3VXhGSHp4Y1pJWXF3aVdMNWNoelZYSjV2YlVfRnhxc1VFcnhiSGdFUDVTVFJ4MDhsVmV5ZW9xeQ?oc=5",
+"published": "2026-10-27T06:00:10+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Check Point Blog",
+"domain": "blog.checkpoint.com",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
 ]
 },
 {
@@ -3097,6 +3482,22 @@
 ]
 },
 {
+"id": "552531172a1a55b0",
+"title": "Not Palantir. Not Snowflake. This AI Software Stock Could Be the Next Multibagger.",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcnByVFBHbFBzRnU1QUN2bnZkZXhSZHpRUUwxTmExOE9wZ2N0SFNqTmpZRTFVc0t1VjhvMlZQTEFNbElVZHlJQnFnYVJGeUI2b2NfeDM1UWFVYVVfckItUURxLXRLc0VUalN4d2dOeUl5ZVMzS1RyWjYxQUp6ZGtqag?oc=5",
+"published": "2026-10-27T02:41:00+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "AOL.co.uk",
+"domain": "aol.co.uk",
+"sources": [
+"CrowdStrike news"
+],
+"tags": [
+"CRWD"
+]
+},
+{
 "id": "bc66d3d0634c60e5",
 "title": "Cybersecurity skills gap persists as AI threats rise, says Fortinet",
 "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ0pGQ1F6c3lWWmE1a2ZiNllMajlxOTF5MGEyT2xmd3hhUnZ0WWNCMDZBcDd0NUpCa2ptUVFvZUxBUkdlWWNSSUJXeGhRMzBlc2M4dXkxbUpSaFNRVkhtRnBYdW5abzZLMnZ6Z3N3YXJLeF9lZktBbDVRNUtmdU13dFdGUURacXkwbnJxUk9qOTRyT2FQQTBFY3RSSXlyVXhleXRIdU84eGxnMk0tSFE?oc=5",
@@ -3126,6 +3527,22 @@
 ],
 "tags": [
 "PANW"
+]
+},
+{
+"id": "1ced3a43e9cc6695",
+"title": "AI accelerating cyber threats",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSVjRHWFFzMWhUU3YtWEVGVXZnSjlub2JtSW9fM0VMVUNjTnRPS2lBU3FWLTFFbXlhWndmNk9CWEhuNmlHZ3dKZzlWMEJwMDVsVE5jQ3ppSkpPTjJIVmdKWDZZaFVkZE5jb3F1RFl6U1g?oc=5",
+"published": "2026-10-27T01:59:35+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Government News",
+"domain": "governmentnews.com.au",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
 ]
 },
 {
@@ -4112,6 +4529,22 @@
 ]
 },
 {
+"id": "e892b15d45dc7517",
+"title": "26th October – Threat Intelligence Report",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3ZxemU2RkcwNlRoazRNYmxjM2FRYlJWZUx4a2hKMmJYWjExd2FIeDJ4WEVqbEk5ZGtvMXFNOGUwbmlZampvczJmUWt0VzdEd09icjNzTFotSVFkZzFaZF9aZ2JaaDloWnAwMlZIRXhGcVlJVnRzbmxqSHR1TnNmVkpsYw?oc=5",
+"published": "2026-10-26T16:34:49+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "Check Point Research",
+"domain": "research.checkpoint.com",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
+]
+},
+{
 "id": "927a8d22cdaa3b60",
 "title": "Culina Announces Planned CEO Succession as Fabian Koehler Appointed Chief Executive Officer",
 "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MajRpSlNjaThsaDdGWHYtS01LYzVkRi1aQ1UwejczaW9BaUFWWk81ZG9DenRjWlRuZU5RZnppMlpZX3VwaGtGRDAzeFQwX2ItUElndlRkTdIBV0FVX3lxTE9MajRpSlNjaThsaDdGWHYtS01LYzVkRi1aQ1UwejczaW9BaUFWWk81ZG9DenRjWlRuZU5RZnppMlpZX3VwaGtGRDAzeFQwX2ItUElndlRkTQ?oc=5",
@@ -5092,10 +5525,28 @@
 "publisher": "Nubia Magazine!",
 "domain": "nubiapage.com",
 "sources": [
-"Wiz news"
+"Wiz news",
+"Check Point news"
 ],
 "tags": [
+"CHKP",
 "Other cos"
+]
+},
+{
+"id": "fc14cc01179723fd",
+"title": "How Israeli developers shaped US card game software",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SMjVGMll0ekpFNmVkYjFobHRWZTk1VmFzUVhkaTAyM0drVUo0OUoyRDFBelM4U1E1S0lCMnpKRmdRYkVlaG1OOHJ1T05VOFdLTktHSnQyMjVnZXduWWhhOEVaLWtERFRBaTFDZkppV244VUVuT0tGRg?oc=5",
+"published": "2026-10-26T08:58:28+00:00",
+"first_seen": "2026-10-28T00:35:19+00:00",
+"summary": "",
+"publisher": "The Jerusalem Post",
+"domain": "jpost.com",
+"sources": [
+"Check Point news"
+],
+"tags": [
+"CHKP"
 ]
 },
 {
