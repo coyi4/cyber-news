@@ -3,7 +3,7 @@
 <title>Cyber</title>
 <link>https://coyi4.github.io/cyber-news/</link>
 <description>Combined custom news feed</description>
-<lastBuildDate>Wed, 28 Oct 2026 00:35:19 +0000</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 00:45:19 +0000</lastBuildDate>
 <ttl>30</ttl>
 <item>
 <title>Fortinet expands unified SASE to simplify microbranch security</title>
@@ -77,6 +77,14 @@
 <pubDate>Tue, 27 Oct 2026 23:24:04 +0000</pubDate>
 <description>[Bloomberg.com]</description>
 <category>PANW</category>
+</item>
+<item>
+<title>CCNA certification</title>
+<link>https://news.google.com/rss/articles/CBMiakFVX3lxTE9vdTRxbWltRlp0SlpZQXloWkF4VTkxTTZzT1hGSEw4a29fS2xqUVZCU1ltZE5kQm5UdDJtcmtaazlqdGJ0alQ5eDlPckdjcEJ6dHpOOU9JNEJLZ1E0dmRkeXZlcTdzVGtHSlE?oc=5</link>
+<guid isPermaLink="false">991e413f701887c9</guid>
+<pubDate>Tue, 27 Oct 2026 23:20:01 +0000</pubDate>
+<description>[TechTarget]</description>
+<category>CSCO</category>
 </item>
 <item>
 <title>Florida gets new, but familiar bowl destination in SI projections</title>
@@ -229,6 +237,14 @@
 <pubDate>Tue, 27 Oct 2026 22:52:04 +0000</pubDate>
 <description>[Gators Wire]</description>
 <category>Other cos</category>
+</item>
+<item>
+<title>Rubrik acquisition enhances vendor’s artificial intelligence</title>
+<link>https://news.google.com/rss/articles/CBMioAFBVV95cUxOa3dad2pUQVFnakRyZ0pIRVF2UE16SjBtOEI2WWNFRk9VWEUydGZVOVUxS0oyV1dTR2daZ0lBaUQteC1fRkl4SDh0aG1JSXhkNUFCQ0tjX2czdmNMZFluVmpDVmZIYUk1VXlCX25SODBaU0d1S1pzSGd0SzlwVWNOdDhQU3ZlS3cwaDJONU1yZXRhdFpobmhzdEdscGtZbUJv?oc=5</link>
+<guid isPermaLink="false">1b9356e89b4372cb</guid>
+<pubDate>Tue, 27 Oct 2026 22:47:30 +0000</pubDate>
+<description>[TechTarget]</description>
+<category>RBRK</category>
 </item>
 <item>
 <title>CockroachDB introduces Serverless as a cloud database option</title>
@@ -767,6 +783,7 @@ TrendAI, which analyzed three exposed server environments used by threat actors 
 <pubDate>Tue, 27 Oct 2026 17:53:49 +0000</pubDate>
 <description>[InvestorPlace]</description>
 <category>RBRK</category>
+<category>TENB</category>
 </item>
 <item>
 <title>Cisco’s Dialog Takes Customer Service Beyond the Conversation |</title>
@@ -949,6 +966,14 @@ TrendAI, which analyzed three exposed server environments used by threat actors 
 <category>CHKP</category>
 </item>
 <item>
+<title>From federal SOCs to Talos: Ryan Fetterman on practical security research</title>
+<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxOVFFTRERwTk5lZDJqX0pxbWdnSmpXb0xydlhPOHBlU2NrTGMtcTc0YUpmcW9iWG9kSjZwZUN5TUlXTmZweWMzcHRuMFVRMjBUc2dSaXM5YmE2dGo2d2I4YVBGSWhLUGhRajRZalg2WEVwVUNKVFYtU2FxdEJxYlpWdGxKek55UGdhamhnMXk1QWlkeUpPNTAyUE95SDJwVkVsSUdxMjRPMVFTdmF3?oc=5</link>
+<guid isPermaLink="false">6d2fb7bbd8dcbda8</guid>
+<pubDate>Tue, 27 Oct 2026 14:24:19 +0000</pubDate>
+<description>[Cisco Talos Blog]</description>
+<category>CSCO</category>
+</item>
+<item>
 <title>Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support</title>
 <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxPelVKTlhFSFdFQkJJd20xcWd5NnZDZUdBVUlxb1p6S2lvME5GeVJtT1RteXRiSmxCQlF0MDlaOWg1RTJUbVZ3WndGM0dzbTdHQjd2dk05endSRG5nOWM2aFNyNElYLVpQbGt5THhOcDdDS3VCQ2J6alBMOXRsc0tVeUxhLXlaeTBCRW9DNUlQczI4aEVaX3p6b0dQbGQ?oc=5</link>
 <guid isPermaLink="false">f5ade76731dcb6cd</guid>
@@ -1092,6 +1117,14 @@ Patches for the flaw were released last month by Apple in</description>
 <category>PANW</category>
 </item>
 <item>
+<title>Aria Networks Appoints Jonathan Davidson to its Board of Directors</title>
+<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOVZScV8zY0xhdXRiU25VMzFXY1JOQUw3VUZTWVphY2c5MWM4RHVLeko4eEJBUFlyUHFHU255a29fVy1WdzRQZ2JUZVBkUVlRWXg2Zy1GdjBqZm13WHpvSUV2cXE2VGNSa1lNQURIVlNBenBJcWFLZ2JPMUNiSUNRQUpFME4xRVlMWXlUb2J2ZWk4T2h3bHZRc0J6Q1gzWUpjZEplc0VLejg0VEZvMVNqeVIxdFlPSlhuWVZVN3hfVEo?oc=5</link>
+<guid isPermaLink="false">fb7ee583574eac08</guid>
+<pubDate>Tue, 27 Oct 2026 13:00:42 +0000</pubDate>
+<description>[Business Wire]</description>
+<category>CSCO</category>
+</item>
+<item>
 <title>HPE claims to have beaten Cisco to a proper self-driving network</title>
 <link>https://news.google.com/rss/articles/CBMiswFBVV95cUxNNFhaby1CVFRRdXRiVWpYWE9MSUVrMmhMSnRPaGMzN2RiVGltYWVibjRJSG9QekJjUm1XUEVqSzRfdlozMTB6OVB1eTBpcU16RVJ0WmNhTmlieGhYZjBhaV90UmppTXlfRzM1R2N2MThVNkhfc0hwODhya0k2bENIVUY2aFZkSThiVkRlYk15Vmd4czdqajVkYWNtLVVRSUM4WWd4Qzg1RkdVSEtpWUpoRnRDWQ?oc=5</link>
 <guid isPermaLink="false">e6699797c95c831f</guid>
@@ -1130,6 +1163,14 @@ Patches for the flaw were released last month by Apple in</description>
 <pubDate>Tue, 27 Oct 2026 12:45:06 +0000</pubDate>
 <description>[YouTube]</description>
 <category>CSCO</category>
+</item>
+<item>
+<title>php2shell: What the Shutdowns Actually Mean</title>
+<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE94NENDeFRXY3psVG5Rc3VoeGRxLV9yYnR5OVU2ZV9HV3BlMm1nVWRGcjl0cmJGRzZkN0JWZk9lb2JUQjBpeUNZakxFUWNVNDhhc0wzU2hIYlBrMWFxSXJ1RFhhQ0EzNUNhYXdEOG41MWZEdXN5d1E?oc=5</link>
+<guid isPermaLink="false">1fea9d8dd977ec25</guid>
+<pubDate>Tue, 27 Oct 2026 12:30:07 +0000</pubDate>
+<description>[FinanceFeeds]</description>
+<category>NET</category>
 </item>
 <item>
 <title>Attackers Exploit Teams External Chat to Breach Organizations in Under 15 Minutes</title>
@@ -1489,6 +1530,14 @@ According to Russian cybersecurity company Kaspersky, the campaign has been acti
 <category>FTNT</category>
 </item>
 <item>
+<title>Cloudflare and VoidZero release tsrs, an AI-built Rust port of TypeScript</title>
+<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk9udTZDUmxlSkU1ZWlYdU9aQVpfSDhzbUJwNlIzZk1IcEFsODVhMEtoakhZUnBoTXh6eDU4WDBIT3E1R21oSThna1prVm9sNVE4bkZ5Q2RMellBdm9ZUWJ2VEhJRUNsQ2p3aDFvOURVWmk1QXoySzdzNDBpdWVleTlTMnRvYzBYU2lYSTA4RnUzQXY5WDJOTUNGbW1DTlRhZ19v?oc=5</link>
+<guid isPermaLink="false">5f471c57c7934512</guid>
+<pubDate>Tue, 27 Oct 2026 08:26:49 +0000</pubDate>
+<description>[news.lavx.hu]</description>
+<category>NET</category>
+</item>
+<item>
 <title>OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections</title>
 <link>https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html</link>
 <guid isPermaLink="false">ea5496feaca5e846</guid>
@@ -1544,6 +1593,14 @@ OpenAI's reasoning models work through a problem before answering, and the servi
 <guid isPermaLink="false">4f39bedf118e31bc</guid>
 <pubDate>Tue, 27 Oct 2026 07:37:16 +0000</pubDate>
 <description>[infoq.com]</description>
+<category>NET</category>
+</item>
+<item>
+<title>Critical PHP flaws trigger Kenya security alert</title>
+<link>https://news.google.com/rss/articles/CBMimAFBVV95cUxNeVVFZUc3SEs5aVZLdlQyTWtSNF9TNTRjSWRWTHpscWo1MzJ5Qnd2dVg4dkJMRWNvY1NTMzBUd2J3WUZUUlUzQW92akhHcXNvUHpLUUZBaGpNLWlrRFItUDhydnZVV3V0d1NtZFAtQm9mdTJEaF9tRjJ6ZmNRdmRKZnc2dTNwaUI3OVlMRFpFLVFoa2hOZ2FoQQ?oc=5</link>
+<guid isPermaLink="false">f0df3b07f168460e</guid>
+<pubDate>Tue, 27 Oct 2026 07:16:49 +0000</pubDate>
+<description>[ITWeb Africa]</description>
 <category>NET</category>
 </item>
 <item>
@@ -2572,6 +2629,14 @@ And that's not even the full story. A leaked key led to a software supply-chain<
 <category>Other cos</category>
 </item>
 <item>
+<title>Cloudflare launches Auto Router beta to rate AI requests by stakes</title>
+<link>https://news.google.com/rss/articles/CBMimwFBVV95cUxNbFpKWW81Um5SRktmcjZiamQ3ZUU5MEVuNmh4akg2OHhMRG9ZSlBuT0pqOGR0NW1GUmlyNzhKMXNpRkRUMmYyU3Vid2duRjhTQlFpRnBoaUtmdWRxMVg5ei1UcllqMmlCZlhlMXM4STYtM1FaYVloNW1XOUx4X3Z6cUFyZk5yNFkwVkU0dHNYRjFXRjM1RWstOFJTRQ?oc=5</link>
+<guid isPermaLink="false">a61ab0129513a132</guid>
+<pubDate>Mon, 26 Oct 2026 12:33:37 +0000</pubDate>
+<description>[news.lavx.hu]</description>
+<category>NET</category>
+</item>
+<item>
 <title>Telos Corporation to Announce Third Quarter 2026 Financial Results on November 9, 2026</title>
 <link>https://news.google.com/rss/articles/CBMi7gFBVV95cUxPT1FaV2RsTTdaQ0J5X01NZkp5a3o3Zk5xSzVaNVdObjhBengyQURHUTV3b1FmM3YzZUJQX0VpN01BcTl5V3pFa0V6UEFSSFUtVlFhOExXeDdJTGhtWlRyUFhUVjYtVTZOZk95VG5VZlRyVW9DVFZpcWVnbjRzWGRxd0tZSDRXMm93dW9TMEF3ckV0TEQ5OW5oZkFYeGxMaC12djVueUlzdlRsT3dEa3REcnpLVi1lU2dQSEJ3a1pFQkRYeVloNGRNV0RqRzZOb2U1SXpQbFROZ3VxYllGQXFyWDFBekJSeEVKNU1DT1Rn?oc=5</link>
 <guid isPermaLink="false">3e919b2244b14332</guid>
@@ -3039,6 +3104,14 @@ The file</description>
 <description>[CNN]</description>
 <category>CHKP</category>
 <category>TENB</category>
+</item>
+<item>
+<title>OpenAI has discovered a vulnerability in Brotli, a Google-made compression tool used in Node.js and Bun, that could lead to remote code execution.</title>
+<link>https://news.google.com/rss/articles/CBMiekFVX3lxTFBGRkJrWUNfdmxHQkxOZUxtbC1tNnlLOERlNzFqeGJNajJVbWE4YjZfaV9nM3haclpCUFNmalpVNEZQVlJjS253VVpPUmluUTNRbWY4d2c5ZjFiaU4xenZLNGhUUlE1V1ZkM202ZTFsNnY3UENOcW5LNzlR?oc=5</link>
+<guid isPermaLink="false">58302bd709a238bc</guid>
+<pubDate>Mon, 26 Oct 2026 03:33:00 +0000</pubDate>
+<description>[GIGAZINE]</description>
+<category>Other cos</category>
 </item>
 <item>
 <title>eufy Is Becoming Anker eufy: What UK Customers Need to Know</title>

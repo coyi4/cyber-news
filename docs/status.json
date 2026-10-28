@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T00:35:19+00:00",
+ "updated": "2026-10-28T00:45:19+00:00",
  "sources": [
   {
    "source": "The Hacker News",
@@ -44,9 +44,9 @@
   {
    "source": "SentinelOne news",
    "type": "google_news",
-   "fetched": 12,
+   "fetched": 17,
    "new": 0,
-   "blocked": 10,
+   "blocked": 13,
    "error": null
   },
   {
@@ -69,32 +69,32 @@
    "source": "Arctic Wolf news",
    "type": "google_news",
    "fetched": 13,
-   "new": 1,
+   "new": 0,
    "blocked": 4,
    "error": null
   },
   {
    "source": "Fortinet news",
    "type": "google_news",
-   "fetched": 51,
-   "new": 1,
-   "blocked": 35,
+   "fetched": 63,
+   "new": 0,
+   "blocked": 40,
    "error": null
   },
   {
    "source": "Akamai news",
    "type": "google_news",
    "fetched": 42,
-   "new": 2,
-   "blocked": 32,
+   "new": 0,
+   "blocked": 31,
    "error": null
   },
   {
    "source": "Wiz news",
    "type": "google_news",
-   "fetched": 22,
-   "new": 0,
-   "blocked": 3,
+   "fetched": 36,
+   "new": 1,
+   "blocked": 6,
    "error": null
   },
   {
@@ -117,40 +117,40 @@
    "source": "Cisco news",
    "type": "google_news",
    "fetched": 54,
-   "new": 4,
+   "new": 3,
    "blocked": 26,
    "error": null
   },
   {
    "source": "Zscaler news",
    "type": "google_news",
-   "fetched": 25,
+   "fetched": 47,
    "new": 0,
-   "blocked": 19,
+   "blocked": 40,
    "error": null
   },
   {
    "source": "Palo Alto Networks news",
    "type": "google_news",
-   "fetched": 58,
-   "new": 1,
-   "blocked": 38,
+   "fetched": 64,
+   "new": 0,
+   "blocked": 41,
    "error": null
   },
   {
    "source": "Rapid7 news",
    "type": "google_news",
-   "fetched": 10,
+   "fetched": 9,
    "new": 0,
-   "blocked": 7,
+   "blocked": 6,
    "error": null
   },
   {
    "source": "HackerOne news",
    "type": "google_news",
-   "fetched": 7,
+   "fetched": 6,
    "new": 0,
-   "blocked": 3,
+   "blocked": 2,
    "error": null
   },
   {
@@ -172,7 +172,7 @@
   {
    "source": "Rubrik news",
    "type": "google_news",
-   "fetched": 19,
+   "fetched": 20,
    "new": 1,
    "blocked": 17,
    "error": null
@@ -196,9 +196,9 @@
   {
    "source": "Fastly news",
    "type": "google_news",
-   "fetched": 11,
+   "fetched": 10,
    "new": 0,
-   "blocked": 9,
+   "blocked": 8,
    "error": null
   },
   {
@@ -212,7 +212,7 @@
   {
    "source": "Cellebrite news",
    "type": "google_news",
-   "fetched": 9,
+   "fetched": 8,
    "new": 0,
    "blocked": 6,
    "error": null
@@ -220,9 +220,9 @@
   {
    "source": "OneSpan news",
    "type": "google_news",
-   "fetched": 6,
+   "fetched": 7,
    "new": 0,
-   "blocked": 6,
+   "blocked": 7,
    "error": null
   },
   {
@@ -268,9 +268,9 @@
   {
    "source": "Tenable news",
    "type": "google_news",
-   "fetched": 16,
+   "fetched": 24,
    "new": 0,
-   "blocked": 14,
+   "blocked": 18,
    "error": null
   },
   {
@@ -300,9 +300,9 @@
   {
    "source": "Cloudflare news",
    "type": "google_news",
-   "fetched": 50,
-   "new": 1,
-   "blocked": 32,
+   "fetched": 66,
+   "new": 4,
+   "blocked": 42,
    "error": null
   },
   {
@@ -316,8 +316,8 @@
   {
    "source": "Sysdig news",
    "type": "google_news",
-   "fetched": 4,
-   "new": 1,
+   "fetched": 3,
+   "new": 0,
    "blocked": 1,
    "error": null
   },
@@ -332,9 +332,9 @@
   {
    "source": "Okta news",
    "type": "google_news",
-   "fetched": 24,
-   "new": 1,
-   "blocked": 17,
+   "fetched": 39,
+   "new": 0,
+   "blocked": 30,
    "error": null
   },
   {
@@ -348,7 +348,7 @@
   {
    "source": "Ping Identity news",
    "type": "google_news",
-   "fetched": 7,
+   "fetched": 8,
    "new": 0,
    "blocked": 3,
    "error": null
@@ -388,9 +388,9 @@
   {
    "source": "MongoDB news",
    "type": "google_news",
-   "fetched": 24,
+   "fetched": 23,
    "new": 0,
-   "blocked": 10,
+   "blocked": 9,
    "error": null
   },
   {
@@ -404,31 +404,31 @@
   {
    "source": "AvePoint news",
    "type": "google_news",
-   "fetched": 16,
+   "fetched": 15,
    "new": 0,
-   "blocked": 15,
+   "blocked": 14,
    "error": null
   },
   {
    "source": "ReliaQuest news",
    "type": "google_news",
-   "fetched": 36,
+   "fetched": 15,
    "new": 0,
-   "blocked": 26,
+   "blocked": 9,
    "error": null
   },
   {
    "source": "CrowdStrike news",
    "type": "google_news",
-   "fetched": 66,
-   "new": 6,
-   "blocked": 47,
+   "fetched": 49,
+   "new": 0,
+   "blocked": 40,
    "error": null
   },
   {
    "source": "1Password news",
    "type": "google_news",
-   "fetched": 16,
+   "fetched": 15,
    "new": 0,
    "blocked": 4,
    "error": null
@@ -437,16 +437,16 @@
    "source": "Check Point news",
    "type": "google_news",
    "fetched": 41,
-   "new": 8,
-   "blocked": 23,
+   "new": 0,
+   "blocked": 22,
    "error": null
   },
   {
    "source": "Telos news",
    "type": "google_news",
-   "fetched": 5,
+   "fetched": 6,
    "new": 0,
-   "blocked": 4,
+   "blocked": 5,
    "error": null
   },
   {
@@ -637,7 +637,7 @@
    "source": "CRWD filings",
    "type": "rss",
    "fetched": 40,
-   "new": 1,
+   "new": 0,
    "blocked": 0,
    "error": null
   },
@@ -675,7 +675,7 @@
   {
    "domain": "techtarget.com",
    "publisher": "TechTarget",
-   "items": 22
+   "items": 24
   },
   {
    "domain": "sec.gov",
@@ -713,6 +713,11 @@
    "items": 5
   },
   {
+   "domain": "news.lavx.hu",
+   "publisher": "news.lavx.hu",
+   "items": 5
+  },
+  {
    "domain": "itwire.com",
    "publisher": "iTWire",
    "items": 4
@@ -730,6 +735,11 @@
   {
    "domain": "paloaltonetworks.com",
    "publisher": "Palo Alto Networks",
+   "items": 4
+  },
+  {
+   "domain": "businesswire.com",
+   "publisher": "Business Wire",
    "items": 4
   },
   {
@@ -773,11 +783,6 @@
    "items": 3
   },
   {
-   "domain": "businesswire.com",
-   "publisher": "Business Wire",
-   "items": 3
-  },
-  {
    "domain": "infosecurity-magazine.com",
    "publisher": "Infosecurity Magazine",
    "items": 3
@@ -790,11 +795,6 @@
   {
    "domain": "techtimes.com",
    "publisher": "Tech Times",
-   "items": 3
-  },
-  {
-   "domain": "news.lavx.hu",
-   "publisher": "news.lavx.hu",
    "items": 3
   },
   {

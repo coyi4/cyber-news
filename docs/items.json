@@ -1,6 +1,6 @@
 {
 "title": "Cyber",
-"updated": "2026-10-28T00:35:19+00:00",
+"updated": "2026-10-28T00:45:19+00:00",
 "items": [
 {
 "id": "fcac884ae2b8b807",
@@ -145,6 +145,22 @@
 ],
 "tags": [
 "PANW"
+]
+},
+{
+"id": "991e413f701887c9",
+"title": "CCNA certification",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vdTRxbWltRlp0SlpZQXloWkF4VTkxTTZzT1hGSEw4a29fS2xqUVZCU1ltZE5kQm5UdDJtcmtaazlqdGJ0alQ5eDlPckdjcEJ6dHpOOU9JNEJLZ1E0dmRkeXZlcTdzVGtHSlE?oc=5",
+"published": "2026-10-27T23:20:01+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "TechTarget",
+"domain": "techtarget.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
 ]
 },
 {
@@ -449,6 +465,22 @@
 ],
 "tags": [
 "Other cos"
+]
+},
+{
+"id": "1b9356e89b4372cb",
+"title": "Rubrik acquisition enhances vendor’s artificial intelligence",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa3dad2pUQVFnakRyZ0pIRVF2UE16SjBtOEI2WWNFRk9VWEUydGZVOVUxS0oyV1dTR2daZ0lBaUQteC1fRkl4SDh0aG1JSXhkNUFCQ0tjX2czdmNMZFluVmpDVmZIYUk1VXlCX25SODBaU0d1S1pzSGd0SzlwVWNOdDhQU3ZlS3cwaDJONU1yZXRhdFpobmhzdEdscGtZbUJv?oc=5",
+"published": "2026-10-27T22:47:30+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "TechTarget",
+"domain": "techtarget.com",
+"sources": [
+"Rubrik news"
+],
+"tags": [
+"RBRK"
 ]
 },
 {
@@ -1511,10 +1543,12 @@
 "publisher": "InvestorPlace",
 "domain": "investorplace.com",
 "sources": [
-"Rubrik news"
+"Rubrik news",
+"Tenable news"
 ],
 "tags": [
-"RBRK"
+"RBRK",
+"TENB"
 ]
 },
 {
@@ -1878,6 +1912,22 @@
 ]
 },
 {
+"id": "6d2fb7bbd8dcbda8",
+"title": "From federal SOCs to Talos: Ryan Fetterman on practical security research",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVFFTRERwTk5lZDJqX0pxbWdnSmpXb0xydlhPOHBlU2NrTGMtcTc0YUpmcW9iWG9kSjZwZUN5TUlXTmZweWMzcHRuMFVRMjBUc2dSaXM5YmE2dGo2d2I4YVBGSWhLUGhRajRZalg2WEVwVUNKVFYtU2FxdEJxYlpWdGxKek55UGdhamhnMXk1QWlkeUpPNTAyUE95SDJwVkVsSUdxMjRPMVFTdmF3?oc=5",
+"published": "2026-10-27T14:24:19+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "Cisco Talos Blog",
+"domain": "blog.talosintelligence.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
+]
+},
+{
 "id": "f5ade76731dcb6cd",
 "title": "Hackers bury inboxes in spam then show up on Microsoft Teams posing as IT support",
 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPelVKTlhFSFdFQkJJd20xcWd5NnZDZUdBVUlxb1p6S2lvME5GeVJtT1RteXRiSmxCQlF0MDlaOWg1RTJUbVZ3WndGM0dzbTdHQjd2dk05endSRG5nOWM2aFNyNElYLVpQbGt5THhOcDdDS3VCQ2J6alBMOXRsc0tVeUxhLXlaeTBCRW9DNUlQczI4aEVaX3p6b0dQbGQ?oc=5",
@@ -2153,6 +2203,22 @@
 ]
 },
 {
+"id": "fb7ee583574eac08",
+"title": "Aria Networks Appoints Jonathan Davidson to its Board of Directors",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOVZScV8zY0xhdXRiU25VMzFXY1JOQUw3VUZTWVphY2c5MWM4RHVLeko4eEJBUFlyUHFHU255a29fVy1WdzRQZ2JUZVBkUVlRWXg2Zy1GdjBqZm13WHpvSUV2cXE2VGNSa1lNQURIVlNBenBJcWFLZ2JPMUNiSUNRQUpFME4xRVlMWXlUb2J2ZWk4T2h3bHZRc0J6Q1gzWUpjZEplc0VLejg0VEZvMVNqeVIxdFlPSlhuWVZVN3hfVEo?oc=5",
+"published": "2026-10-27T13:00:42+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "Business Wire",
+"domain": "businesswire.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
+]
+},
+{
 "id": "e6699797c95c831f",
 "title": "HPE claims to have beaten Cisco to a proper self-driving network",
 "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNFhaby1CVFRRdXRiVWpYWE9MSUVrMmhMSnRPaGMzN2RiVGltYWVibjRJSG9QekJjUm1XUEVqSzRfdlozMTB6OVB1eTBpcU16RVJ0WmNhTmlieGhYZjBhaV90UmppTXlfRzM1R2N2MThVNkhfc0hwODhya0k2bENIVUY2aFZkSThiVkRlYk15Vmd4czdqajVkYWNtLVVRSUM4WWd4Qzg1RkdVSEtpWUpoRnRDWQ?oc=5",
@@ -2230,6 +2296,22 @@
 ],
 "tags": [
 "CSCO"
+]
+},
+{
+"id": "1fea9d8dd977ec25",
+"title": "php2shell: What the Shutdowns Actually Mean",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94NENDeFRXY3psVG5Rc3VoeGRxLV9yYnR5OVU2ZV9HV3BlMm1nVWRGcjl0cmJGRzZkN0JWZk9lb2JUQjBpeUNZakxFUWNVNDhhc0wzU2hIYlBrMWFxSXJ1RFhhQ0EzNUNhYXdEOG41MWZEdXN5d1E?oc=5",
+"published": "2026-10-27T12:30:07+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "FinanceFeeds",
+"domain": "financefeeds.com",
+"sources": [
+"Cloudflare news"
+],
+"tags": [
+"NET"
 ]
 },
 {
@@ -2922,6 +3004,22 @@
 ]
 },
 {
+"id": "5f471c57c7934512",
+"title": "Cloudflare and VoidZero release tsrs, an AI-built Rust port of TypeScript",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk9udTZDUmxlSkU1ZWlYdU9aQVpfSDhzbUJwNlIzZk1IcEFsODVhMEtoakhZUnBoTXh6eDU4WDBIT3E1R21oSThna1prVm9sNVE4bkZ5Q2RMellBdm9ZUWJ2VEhJRUNsQ2p3aDFvOURVWmk1QXoySzdzNDBpdWVleTlTMnRvYzBYU2lYSTA4RnUzQXY5WDJOTUNGbW1DTlRhZ19v?oc=5",
+"published": "2026-10-27T08:26:49+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "news.lavx.hu",
+"domain": "news.lavx.hu",
+"sources": [
+"Cloudflare news"
+],
+"tags": [
+"NET"
+]
+},
+{
 "id": "ea5496feaca5e846",
 "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
 "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
@@ -3026,6 +3124,22 @@
 "summary": "",
 "publisher": "infoq.com",
 "domain": "infoq.com",
+"sources": [
+"Cloudflare news"
+],
+"tags": [
+"NET"
+]
+},
+{
+"id": "f0df3b07f168460e",
+"title": "Critical PHP flaws trigger Kenya security alert",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeVVFZUc3SEs5aVZLdlQyTWtSNF9TNTRjSWRWTHpscWo1MzJ5Qnd2dVg4dkJMRWNvY1NTMzBUd2J3WUZUUlUzQW92akhHcXNvUHpLUUZBaGpNLWlrRFItUDhydnZVV3V0d1NtZFAtQm9mdTJEaF9tRjJ6ZmNRdmRKZnc2dTNwaUI3OVlMRFpFLVFoa2hOZ2FoQQ?oc=5",
+"published": "2026-10-27T07:16:49+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "ITWeb Africa",
+"domain": "itweb.africa",
 "sources": [
 "Cloudflare news"
 ],
@@ -5045,6 +5159,22 @@
 ]
 },
 {
+"id": "a61ab0129513a132",
+"title": "Cloudflare launches Auto Router beta to rate AI requests by stakes",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbFpKWW81Um5SRktmcjZiamQ3ZUU5MEVuNmh4akg2OHhMRG9ZSlBuT0pqOGR0NW1GUmlyNzhKMXNpRkRUMmYyU3Vid2duRjhTQlFpRnBoaUtmdWRxMVg5ei1UcllqMmlCZlhlMXM4STYtM1FaYVloNW1XOUx4X3Z6cUFyZk5yNFkwVkU0dHNYRjFXRjM1RWstOFJTRQ?oc=5",
+"published": "2026-10-26T12:33:37+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "news.lavx.hu",
+"domain": "news.lavx.hu",
+"sources": [
+"Cloudflare news"
+],
+"tags": [
+"NET"
+]
+},
+{
 "id": "3e919b2244b14332",
 "title": "Telos Corporation to Announce Third Quarter 2026 Financial Results on November 9, 2026",
 "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPT1FaV2RsTTdaQ0J5X01NZkp5a3o3Zk5xSzVaNVdObjhBengyQURHUTV3b1FmM3YzZUJQX0VpN01BcTl5V3pFa0V6UEFSSFUtVlFhOExXeDdJTGhtWlRyUFhUVjYtVTZOZk95VG5VZlRyVW9DVFZpcWVnbjRzWGRxd0tZSDRXMm93dW9TMEF3ckV0TEQ5OW5oZkFYeGxMaC12djVueUlzdlRsT3dEa3REcnpLVi1lU2dQSEJ3a1pFQkRYeVloNGRNV0RqRzZOb2U1SXpQbFROZ3VxYllGQXFyWDFBekJSeEVKNU1DT1Rn?oc=5",
@@ -5951,6 +6081,22 @@
 "tags": [
 "CHKP",
 "TENB"
+]
+},
+{
+"id": "58302bd709a238bc",
+"title": "OpenAI has discovered a vulnerability in Brotli, a Google-made compression tool used in Node.js and Bun, that could lead to remote code execution.",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGRkJrWUNfdmxHQkxOZUxtbC1tNnlLOERlNzFqeGJNajJVbWE4YjZfaV9nM3haclpCUFNmalpVNEZQVlJjS253VVpPUmluUTNRbWY4d2c5ZjFiaU4xenZLNGhUUlE1V1ZkM202ZTFsNnY3UENOcW5LNzlR?oc=5",
+"published": "2026-10-26T03:33:00+00:00",
+"first_seen": "2026-10-28T00:45:19+00:00",
+"summary": "",
+"publisher": "GIGAZINE",
+"domain": "gigazine.net",
+"sources": [
+"Wiz news"
+],
+"tags": [
+"Other cos"
 ]
 },
 {
