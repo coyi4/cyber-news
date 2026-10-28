@@ -1,6 +1,6 @@
 {
 "title": "Cyber",
-"updated": "2026-10-28T00:45:19+00:00",
+"updated": "2026-10-28T00:46:53+00:00",
 "items": [
 {
 "id": "fcac884ae2b8b807",
@@ -16,6 +16,22 @@
 ],
 "tags": [
 "FTNT"
+]
+},
+{
+"id": "d868fe3cab483302",
+"title": "GPU-buffed servers advance Cisco’s AI agenda",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWmFUTVhycnZfcHphN1VaaHVqUk1Bd05EcGhaak5LLUZGdTNRVUdERHd3NHExV0hSZmxwTUlSbmhZbEZmTnE1SFpsVWdkU2lBSkFCVWNzajR0cWZUV0RVVXJiZkxNMnpkeF94T3pINHc0Tmc4d05pTmZsWjctY1NqVVI0ZWFRbVN0VElR?oc=5",
+"published": "2026-10-28T00:03:57+00:00",
+"first_seen": "2026-10-28T00:46:53+00:00",
+"summary": "",
+"publisher": "TechTarget",
+"domain": "techtarget.com",
+"sources": [
+"Cisco news"
+],
+"tags": [
+"CSCO"
 ]
 },
 {
@@ -4863,6 +4879,22 @@
 "domain": "nst.com.my",
 "sources": [
 "Wiz news"
+],
+"tags": [
+"Other cos"
+]
+},
+{
+"id": "9df1716531631b85",
+"title": "“My life suddenly felt silly and meaningless”: What happens to our identity when we are made redundant?",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcmJYZWhyWVZfNWZpYXpxWWpZUHBWTl8tekhrdGxCSEJTeVB2WFlaNFNRVXRHekFPbnF0ZmRlbFl2Zmc4blVTNmZGNkt5dVU5QnNDY3hqaEZXc0JIMmJMaUF3WGwxLTJKcU5BWjBERzAwV3hsV1hDVkY3X01yR3ppRFQzamdNcFE?oc=5",
+"published": "2026-10-26T14:46:49+00:00",
+"first_seen": "2026-10-28T00:46:53+00:00",
+"summary": "",
+"publisher": "Cosmopolitan",
+"domain": "cosmopolitan.com",
+"sources": [
+"One Identity news"
 ],
 "tags": [
 "Other cos"

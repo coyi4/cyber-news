@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T00:45:19+00:00",
+ "updated": "2026-10-28T00:46:53+00:00",
  "sources": [
   {
    "source": "The Hacker News",
@@ -36,9 +36,9 @@
   {
    "source": "Varonis news",
    "type": "google_news",
-   "fetched": 9,
+   "fetched": 10,
    "new": 0,
-   "blocked": 6,
+   "blocked": 7,
    "error": null
   },
   {
@@ -92,9 +92,9 @@
   {
    "source": "Wiz news",
    "type": "google_news",
-   "fetched": 36,
-   "new": 1,
-   "blocked": 6,
+   "fetched": 22,
+   "new": 0,
+   "blocked": 3,
    "error": null
   },
   {
@@ -116,25 +116,25 @@
   {
    "source": "Cisco news",
    "type": "google_news",
-   "fetched": 54,
-   "new": 3,
-   "blocked": 26,
+   "fetched": 52,
+   "new": 1,
+   "blocked": 24,
    "error": null
   },
   {
    "source": "Zscaler news",
    "type": "google_news",
-   "fetched": 47,
+   "fetched": 25,
    "new": 0,
-   "blocked": 40,
+   "blocked": 20,
    "error": null
   },
   {
    "source": "Palo Alto Networks news",
    "type": "google_news",
-   "fetched": 64,
+   "fetched": 59,
    "new": 0,
-   "blocked": 41,
+   "blocked": 39,
    "error": null
   },
   {
@@ -148,9 +148,9 @@
   {
    "source": "HackerOne news",
    "type": "google_news",
-   "fetched": 6,
+   "fetched": 7,
    "new": 0,
-   "blocked": 2,
+   "blocked": 3,
    "error": null
   },
   {
@@ -172,16 +172,16 @@
   {
    "source": "Rubrik news",
    "type": "google_news",
-   "fetched": 20,
-   "new": 1,
-   "blocked": 17,
+   "fetched": 22,
+   "new": 0,
+   "blocked": 16,
    "error": null
   },
   {
    "source": "One Identity news",
    "type": "google_news",
-   "fetched": 9,
-   "new": 0,
+   "fetched": 10,
+   "new": 1,
    "blocked": 0,
    "error": null
   },
@@ -196,9 +196,9 @@
   {
    "source": "Fastly news",
    "type": "google_news",
-   "fetched": 10,
+   "fetched": 12,
    "new": 0,
-   "blocked": 8,
+   "blocked": 10,
    "error": null
   },
   {
@@ -212,7 +212,7 @@
   {
    "source": "Cellebrite news",
    "type": "google_news",
-   "fetched": 8,
+   "fetched": 9,
    "new": 0,
    "blocked": 6,
    "error": null
@@ -268,9 +268,9 @@
   {
    "source": "Tenable news",
    "type": "google_news",
-   "fetched": 24,
+   "fetched": 16,
    "new": 0,
-   "blocked": 18,
+   "blocked": 14,
    "error": null
   },
   {
@@ -300,9 +300,9 @@
   {
    "source": "Cloudflare news",
    "type": "google_news",
-   "fetched": 66,
-   "new": 4,
-   "blocked": 42,
+   "fetched": 50,
+   "new": 0,
+   "blocked": 32,
    "error": null
   },
   {
@@ -332,9 +332,9 @@
   {
    "source": "Okta news",
    "type": "google_news",
-   "fetched": 39,
+   "fetched": 23,
    "new": 0,
-   "blocked": 30,
+   "blocked": 16,
    "error": null
   },
   {
@@ -420,9 +420,9 @@
   {
    "source": "CrowdStrike news",
    "type": "google_news",
-   "fetched": 49,
+   "fetched": 64,
    "new": 0,
-   "blocked": 40,
+   "blocked": 47,
    "error": null
   },
   {
@@ -438,7 +438,7 @@
    "type": "google_news",
    "fetched": 41,
    "new": 0,
-   "blocked": 22,
+   "blocked": 23,
    "error": null
   },
   {
@@ -675,7 +675,7 @@
   {
    "domain": "techtarget.com",
    "publisher": "TechTarget",
-   "items": 24
+   "items": 25
   },
   {
    "domain": "sec.gov",
