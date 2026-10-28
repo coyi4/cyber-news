@@ -2,7 +2,9 @@ name: Build news feed
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min (GitHub may run a few minutes late)
+    # Main schedule is cron-job.org, which triggers this every 15 min via workflow_dispatch.
+    # This hourly run at an off-peak minute is the backup if cron-job.org misses.
+    - cron: "17 * * * *"
   workflow_dispatch:          # "Run workflow" button for a manual refresh
   push:
     paths: [feeds.yaml, build_feed.py]
