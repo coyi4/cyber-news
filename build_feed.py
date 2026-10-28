@@ -14,6 +14,7 @@ Writes:
 """
 import hashlib
 import json
+import os
 import re
 import sys
 import threading
@@ -37,7 +38,37 @@ warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs"
-SEEN_FILE = ROOT / ".state" / "seen.json"
+SEEN_FILE = OUT / "state" / "seen.json"            # published with the site
+LEGACY_SEEN_FILE = ROOT / ".state" / "seen.json"   # where older versions kept it
+
+
+class StateUnavailable(Exception):
+    """The previous run's state couldn't be read, so publishing now could shrink the feed."""
+
+
+def load_json(name, url_base, local_paths, ua):
+    """Previous run's state: from the live site if FEED_STATE_URL is set, else local files.
+
+    A missing file (404) is fine: it means this is the first run. Any other failure
+    raises StateUnavailable so the run stops before publishing a feed with no memory.
+    """
+    if url_base:
+        url = f"{url_base.rstrip('/')}/{name}?nocache={int(time.time())}"
+        try:
+            r = requests.get(url, headers={"User-Agent": ua}, timeout=30)
+        except requests.RequestException as ex:
+            raise StateUnavailable(f"{name}: {ex}") from ex
+        if r.status_code == 200:
+            try:
+                return r.json()
+            except ValueError as ex:
+                raise StateUnavailable(f"{name}: not valid JSON") from ex
+        if r.status_code != 404:
+            raise StateUnavailable(f"{name}: HTTP {r.status_code}")
+    for path in local_paths:
+        if path.exists():
+            return json.loads(path.read_text())
+    return None
 TRACKING_PREFIXES = ("utm_", "fbclid", "gclid", "mc_", "cmpid", "ref")
 
 
@@ -271,13 +302,21 @@ def main():
     cutoff = now - timedelta(days=settings.get("max_age_days", 14))
 
     OUT.mkdir(exist_ok=True)
-    SEEN_FILE.parent.mkdir(exist_ok=True)
+    SEEN_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     # Previous run's items and the long-lived "seen" ledger (keeps undated scraped items from
-    # resurfacing as new once they age out of the visible window).
-    prev_path = OUT / "items.json"
-    prev = json.loads(prev_path.read_text())["items"] if prev_path.exists() else []
-    seen = json.loads(SEEN_FILE.read_text()) if SEEN_FILE.exists() else {}
+    # resurfacing as new once they age out of the visible window). On GitHub these are read
+    # back from the live site, so nothing has to be committed to the repo between runs.
+    state_url = os.environ.get("FEED_STATE_URL", "").strip()
+    try:
+        prev_data = load_json("items.json", state_url, [OUT / "items.json"], ua)
+        seen = load_json("state/seen.json", state_url, [SEEN_FILE, LEGACY_SEEN_FILE], ua) or {}
+    except StateUnavailable as ex:
+        print(f"Stopping without publishing: couldn't read the previous feed ({ex}).")
+        sys.exit(1)
+    prev = (prev_data or {}).get("items", [])
+    print(f"Loaded {len(prev)} saved items and {len(seen)} seen links"
+          f"{' from ' + state_url if state_url else ''}")
 
     merged = {it["id"]: it for it in prev}
     by_title = {title_key(it["title"]): it["id"] for it in prev}
