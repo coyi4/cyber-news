@@ -24,6 +24,25 @@ settings:
   global_exclude:
     - class action
 
+  # Whitelist: sites that must never be blacklisted. The daily brief checks this list before
+  # adding any site to exclude_domains, and if a site ends up on both lists, this one wins.
+  # A domain here also covers its subdomains.
+  never_block_domains:
+    - seekingalpha.com
+    - cybersecuritynews.com
+    - finviz.com
+    - streetinsider.com
+    - reuters.com
+    - bloomberg.com
+    - wsj.com
+    - cnbc.com
+    - barrons.com
+    - ft.com
+    - sec.gov
+    - businesswire.com
+    - prnewswire.com
+    - globenewswire.com
+
   # Sites to block: the RSS.app bundle blacklist, plus sites added in later reviews. A domain also blocks its subdomains,
   # so investing.com covers uk.investing.com, and yahoo.com covers finance.yahoo.com.
   # Adding a site here also removes its already-saved items on the next run.
