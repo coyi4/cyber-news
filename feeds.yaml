@@ -449,6 +449,76 @@ sources:
     query: "Redis security"
     tags: [Other cos]
 
+  # ---- Private companies added November 2026 ---------------------------------
+  - name: Proofpoint news
+    type: google_news
+    query: 'Proofpoint'
+    tags: [Other cos]
+  - name: Cohesity news
+    type: google_news
+    query: 'Cohesity'
+    tags: [Other cos]
+  - name: Veeam news
+    type: google_news
+    query: 'Veeam'
+    tags: [Other cos]
+  - name: Cato Networks news
+    type: google_news
+    query: '"Cato Networks"'
+    tags: [Other cos]
+  - name: Cyera news
+    type: google_news
+    query: 'Cyera -Cyara'
+    tags: [Other cos]
+  - name: Island news
+    type: google_news
+    query: 'Island "enterprise browser"'
+    tags: [Other cos]
+  - name: Abnormal AI news
+    type: google_news
+    query: '"Abnormal AI" OR "Abnormal Security"'
+    tags: [Other cos]
+  - name: Sophos news
+    type: google_news
+    query: 'Sophos -Whitecaps'
+    tags: [Other cos]
+  - name: Huntress news
+    type: google_news
+    query: 'Huntress (cybersecurity OR MDR OR security)'
+    tags: [Other cos]
+  - name: ID.me news
+    type: google_news
+    query: '"ID.me" (identity OR verification OR IPO OR funding OR CEO OR fraud) -discount -discounts -deals'
+    tags: [Other cos]
+  - name: Magnet Forensics news
+    type: google_news
+    query: '"Magnet Forensics"'
+    tags: [Other cos]
+  - name: Upwind news
+    type: google_news
+    query: '"Upwind" (CNAPP OR "cloud security" OR runtime OR cybersecurity OR acquisition)'
+    tags: [Other cos]
+  - name: Chainguard news
+    type: google_news
+    query: 'Chainguard -bike -bikes -BMX -recall'
+    tags: [Other cos]
+  - name: Cribl news
+    type: google_news
+    query: 'Cribl'
+    tags: [Other cos]
+  - name: Exabeam news
+    type: google_news
+    query: 'Exabeam'
+    tags: [Other cos]
+  - name: Horizon3.ai news
+    type: google_news
+    query: 'Horizon3 -"Horizon3 Innovation"'
+    tags: [Other cos]
+  - name: Vega news
+    type: google_news
+    query: 'Vega ("security analytics" OR SIEM) -AMD -Radeon -offshore -vessel -vessels'
+    tags: [Other cos]
+
   # ---- SEC EDGAR filings (all form types, like RSS.app) ----------------------
   # To limit a company to certain forms, change type= in its URL (e.g. type=8-K).
 
