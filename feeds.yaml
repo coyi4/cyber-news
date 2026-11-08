@@ -42,6 +42,38 @@ settings:
     - businesswire.com
     - prnewswire.com
     - globenewswire.com
+    # Cyber trade press
+    - thehackernews.com
+    - bleepingcomputer.com
+    - scworld.com
+    - helpnetsecurity.com
+    - securityweek.com
+    - bankinfosecurity.com
+    - csoonline.com
+    - darkreading.com
+    - therecord.media
+    - cyberscoop.com
+    # Business and tech press
+    - calcalistech.com
+    - techcrunch.com
+    - axios.com
+    - theinformation.com
+    - law360.com
+    - crn.com
+    - siliconangle.com
+    - sdxcentral.com
+    - theregister.com
+    - computerweekly.com
+    # Company sites
+    - crowdstrike.com
+    - paloaltonetworks.com
+    - cloudflare.com
+    - checkpoint.com
+    - cisco.com
+    - rapid7.com
+    - snyk.io
+    - wiz.io
+    - bitsight.com
 
   # Sites to block: the RSS.app bundle blacklist, plus sites added in later reviews. A domain also blocks its subdomains,
   # so investing.com covers uk.investing.com, and yahoo.com covers finance.yahoo.com.
