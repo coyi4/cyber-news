@@ -240,7 +240,9 @@ def site_blocked(item, src, settings):
     domains = [d.removeprefix("www.") for d in lower_list(
         settings.get("exclude_domains"), src.get("exclude_domains"))]
     publishers = lower_list(settings.get("exclude_publishers"), src.get("exclude_publishers"))
-    if item.get("domain") and domain_blocked(item["domain"], domains):
+    never = [d.removeprefix("www.") for d in lower_list(settings.get("never_block_domains"))]
+    if item.get("domain") and domain_blocked(item["domain"], domains) \
+            and not domain_blocked(item["domain"], never):  # whitelist wins over blacklist
         return True
     return bool(item.get("publisher")) and item["publisher"].lower().strip() in publishers
 
