@@ -203,6 +203,34 @@ settings:
     - openpr.com            # market-research press spam
     - cryptorank.io         # crypto price-converter pages
     - securityinformed.com  # republished press releases; makes old news look new
+    # Added from the November 2026 review
+    # Stock pages, forex and week-ahead recaps
+    - fxleaders.com         # forex/earnings previews
+    - coingecko.com         # tokenized-stock pages
+    - coinbase.com          # tokenized-stock pages
+    - debelegger.nl         # stock price/chart pages
+    - forex.com             # week-ahead recaps
+    - longbridge.com        # week-ahead recaps
+    - mlq.ai                # week-ahead recaps
+    - thesmartinvestor.com.sg  # week-ahead recaps
+    - fourweekmba.com       # "Is X profitable?" explainers
+    # Off-topic name matches
+    - varindia.com          # off-topic "Rubrik" matches
+    - youtu.be
+    - nine.com.au
+    - boxthislap.org
+    - mlive.com
+    - wtaq.com
+    - al.com
+    - harvardindependent.com
+    - amplify.upworthy.com
+    - baijing.cn
+    - millenniumpost.in
+    - thetraveler.org
+    - insiteooh.com
+    - angling-international.com
+    - m.expreview.com
+    - forklog.com
   exclude_publishers: []
 
 sources:
