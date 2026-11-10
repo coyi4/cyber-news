@@ -231,6 +231,35 @@ settings:
     - angling-international.com
     - m.expreview.com
     - forklog.com
+    # Auto-added 2026-11-10
+    - blockchain.news   # tokenized-stock price predictions
+    - markets.chroniclejournal.com   # stock-move recaps
+    - news.jkn.co.kr   # stock-move recaps
+    - investments.halifax.co.uk   # generic "Market news" pages
+    - journalarta.com   # stock quote pages
+    - indmoney.com   # share price pages
+    - kucoin.com   # crypto exchange
+    - sharecast.com   # market recaps
+    - fantasypros.com   # off-topic sports (Cisco name match)
+    - clutchpoints.com   # off-topic sports
+    - srnnews.com   # off-topic sports
+    - news.ssbcrack.com   # off-topic sports
+    - audacy.com   # off-topic sports radio
+    - 1240theticket.com   # off-topic sports radio
+    - on3.com   # off-topic college sports
+    - amp.horseracingnation.com   # off-topic horse racing
+    - redlakenationnews.com   # off-topic local news
+    - casrai.org   # off-topic name match
+    - genomeweb.com   # off-topic genomics
+    - techround.co.uk   # off-topic listicle
+    - thecrimson.com   # off-topic student paper
+    - vanguardngr.com   # off-topic name match
+    - kendranewsaustralia.com.au   # off-topic name match
+    - newswav.com   # off-topic opinion
+    - overclock3d.net   # off-topic hardware
+    - masoncountypress.com   # off-topic local news
+    - builtinaustin.com   # off-topic jobs listicle
+    - foreignpolicyjournal.com   # off-topic earnings match
   exclude_publishers: []
 
 sources:
