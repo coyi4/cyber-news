@@ -275,6 +275,20 @@ settings:
     - poptvculture.com   # low-quality clickbait
     - coinpaper.com   # crypto site earnings previews
     - stocksbnb.com   # low-quality stock blurbs
+    # Auto-added 2026-11-12
+    - detroitlionspodcast.com   # off-topic name match (Cisco)
+    - netnewsledger.com   # off-topic name match (Cisco)
+    - syllad.com   # off-topic name match (One Identity)
+    - prioritymarketing.com   # off-topic name match (ID.me)
+    - tbreak.com   # off-topic gaming (Wiz)
+    - mvr.gov.mk   # off-topic name match (Okta)
+    - thechenabtimes.com   # off-topic name match (ID.me)
+    - scanx.trade   # off-topic name match (LivePerson)
+    - twaslnews1.twaslnews.com   # scraped copy of ratings recap
+    - heygotrade.com   # market recap
+    - asktraders.com   # earnings preview / trading site
+    - cryptonews.net   # crypto site
+    - news.lavx.hu   # republished copies
   exclude_publishers: []
 
 sources:
