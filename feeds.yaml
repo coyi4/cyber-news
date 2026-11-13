@@ -289,6 +289,20 @@ settings:
     - asktraders.com   # earnings preview / trading site
     - cryptonews.net   # crypto site
     - news.lavx.hu   # republished copies
+    # Auto-added 2026-11-11
+    - si.com   # off-topic Cisco (Andre Cisco NFL) matches
+    - detroitnews.com   # off-topic Andre Cisco NFL matches
+    - freep.com   # off-topic Andre Cisco NFL matches
+    - juniorminingnetwork.com   # off-topic Cisco Lithium Project matches
+    - northernminer.com   # off-topic Cisco Lithium Project matches
+    - mining.com.au   # off-topic Cisco Lithium Project matches
+    - readingchronicle.co.uk   # off-topic local news
+    - acmonza.com   # off-topic sports club
+    - pennlive.com   # off-topic local news
+    - cns.utexas.edu   # off-topic university news
+    - technobezz.com   # off-topic how-to content
+    - techgraph.co   # stock quote pages
+    - analyticsinsight.net   # stock-move recaps
   exclude_publishers: []
 
 sources:
