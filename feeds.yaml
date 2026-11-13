@@ -260,6 +260,21 @@ settings:
     - masoncountypress.com   # off-topic local news
     - builtinaustin.com   # off-topic jobs listicle
     - foreignpolicyjournal.com   # off-topic earnings match
+    # Auto-added 2026-11-13
+    - technologyreseller.uk   # off-topic UK channel news
+    - globalbankingandfinance.com   # stock-move recaps
+    - sunshinecoastnews.com.au   # off-topic local news
+    - yorkpress.co.uk   # off-topic local news
+    - feweek.co.uk   # off-topic (OCTA name match)
+    - blog.eticketing.co   # ticket-sales spam
+    - zoomtventertainment.com   # celebrity news
+    - techbullion.com   # sponsored/off-topic
+    - vertigemedia.fr   # off-topic
+    - newindiaabroad.com   # off-topic
+    - americankahani.com   # off-topic
+    - poptvculture.com   # low-quality clickbait
+    - coinpaper.com   # crypto site earnings previews
+    - stocksbnb.com   # low-quality stock blurbs
   exclude_publishers: []
 
 sources:
